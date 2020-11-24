@@ -50,6 +50,7 @@ Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
 Main.Position = UDim2.new(0.271124184, 0, 0.141277641, 0)
 Main.Size = UDim2.new(0, 448, 0, 572)
+Main.Visible = false
 
 Jailbreak.Name = "Jailbreak"
 Jailbreak.Parent = Main
