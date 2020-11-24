@@ -1,0 +1,1649 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local OpenFrame = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local Jailbreak = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
+local Unlockall = Instance.new("TextButton")
+local PrisonLife = Instance.new("TextButton")
+local GuiName = Instance.new("Frame")
+local Name = Instance.new("TextLabel")
+local SynapseX = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local Credits = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ServerPinger = Instance.new("TextButton")
+local oof = Instance.new("TextButton")
+local kat = Instance.new("TextButton")
+local mm2 = Instance.new("TextButton")
+
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = ScreenGui
+OpenFrame.Active = true
+OpenFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenFrame.Position = UDim2.new(0.02645115, 0, 0.641277671, 0)
+OpenFrame.Size = UDim2.new(0, 100, 0, 69)
+
+Open.Name = "Open"
+Open.Parent = OpenFrame
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.Position = UDim2.new(0.157959297, 0, 0.224202469, 0)
+Open.Size = UDim2.new(0, 68, 0, 37)
+Open.Font = Enum.Font.Fantasy
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextScaled = true
+Open.TextSize = 14.000
+Open.TextWrapped = true
+Open.MouseButton1Down:connect(function()
+	Main.Visible = true
+	OpenFrame.Visible = false
+end)
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+Main.Position = UDim2.new(0.271124184, 0, 0.141277641, 0)
+Main.Size = UDim2.new(0, 448, 0, 572)
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = Main
+Jailbreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jailbreak.Position = UDim2.new(0.0870535672, 0, 0.737762213, 0)
+Jailbreak.Size = UDim2.new(0, 153, 0, 50)
+Jailbreak.Font = Enum.Font.SourceSans
+Jailbreak.Text = "Jailbreak"
+Jailbreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+Jailbreak.TextSize = 14.000
+Jailbreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/piglex9/jailbreak-ice-tray/main/Main.lua",true))()
+end)
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Main
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.Position = UDim2.new(0.595982134, 0, 0.737762213, 0)
+Arsenal.Size = UDim2.new(0, 153, 0, 50)
+Arsenal.Font = Enum.Font.SourceSans
+Arsenal.Text = "Asenal"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextSize = 14.000
+Arsenal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
+end)
+
+Unlockall.Name = "Unlock all"
+Unlockall.Parent = Main
+Unlockall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Unlockall.Position = UDim2.new(0.0870535672, 0, 0.592657328, 0)
+Unlockall.Size = UDim2.new(0, 153, 0, 50)
+Unlockall.Font = Enum.Font.SourceSans
+Unlockall.Text = "Unlock all"
+Unlockall.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unlockall.TextSize = 14.000
+Unlockall.MouseButton1Down:connect(function()
+	loadstring(game.HttpGet(game, "https://pastebin.com/raw/EjikdmZx")) ()
+
+	--Unlock All for BIG Paintball 
+end)
+
+PrisonLife.Name = "Prison Life"
+PrisonLife.Parent = Main
+PrisonLife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLife.Position = UDim2.new(0.595982194, 0, 0.592657328, 0)
+PrisonLife.Size = UDim2.new(0, 153, 0, 50)
+PrisonLife.Font = Enum.Font.SourceSans
+PrisonLife.Text = "Prison Life"
+PrisonLife.TextColor3 = Color3.fromRGB(0, 0, 0)
+PrisonLife.TextSize = 14.000
+PrisonLife.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RbxCheats/RbxCheats/master/Scripts/PLG%20v3.1.lua",true))()
+	-- subscribe and like to SkippyTv
+end)
+
+GuiName.Name = "GuiName"
+GuiName.Parent = Main
+GuiName.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+GuiName.Position = UDim2.new(-0.0011972487, 0, -0.000330746174, 0)
+GuiName.Size = UDim2.new(0, 448, 0, 53)
+
+Name.Name = "Name"
+Name.Parent = GuiName
+Name.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(0.194196433, 0, 0, 0)
+Name.Size = UDim2.new(0, 260, 0, 42)
+Name.Font = Enum.Font.SourceSans
+Name.Text = "Lemon Script"
+Name.TextColor3 = Color3.fromRGB(0, 0, 0)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+SynapseX.Name = "Synapse X"
+SynapseX.Parent = GuiName
+SynapseX.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+SynapseX.BorderSizePixel = 0
+SynapseX.Position = UDim2.new(0.714285672, 0, 0.19079034, 0)
+SynapseX.Size = UDim2.new(0, 114, 0, 42)
+SynapseX.Font = Enum.Font.SourceSans
+SynapseX.Text = "Synapse X"
+SynapseX.TextColor3 = Color3.fromRGB(0, 0, 0)
+SynapseX.TextSize = 14.000
+
+Close.Name = "Close"
+Close.Parent = GuiName
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.Size = UDim2.new(0, 31, 0, 28)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+Close.MouseButton1Down:connect(function()
+	Main.Visible = false
+	OpenFrame.Visible = true
+end)
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Credits.Position = UDim2.new(-0.00119721889, 0, 0.884757161, 0)
+Credits.Size = UDim2.new(0, 448, 0, 65)
+
+TextLabel.Parent = Credits
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 448, 0, 65)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Created by Lemon94870"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+ServerPinger.Name = "ServerPinger"
+ServerPinger.Parent = Main
+ServerPinger.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ServerPinger.Position = UDim2.new(0.087053597, 0, 0.466783196, 0)
+ServerPinger.Size = UDim2.new(0, 153, 0, 50)
+ServerPinger.Font = Enum.Font.SourceSans
+ServerPinger.Text = "ServerPinger"
+ServerPinger.TextColor3 = Color3.fromRGB(0, 0, 0)
+ServerPinger.TextSize = 14.000
+ServerPinger.MouseButton1Down:connect(function()
+	--[[
+ ___       __   ________  ___       ___           ___    ___ ________  _______   ________  ___  ___  ________  _______        _________  _____ ______           
+|\  \     |\  \|\   __  \|\  \     |\  \         |\  \  /  /|\   ____\|\  ___ \ |\   ____\|\  \|\  \|\   __  \|\  ___ \   ___|\___   ___\\   _ \  _   \  ___    
+\ \  \    \ \  \ \  \|\  \ \  \    \ \  \        \ \  \/  / | \  \___|\ \   __/|\ \  \___|\ \  \\\  \ \  \|\  \ \   __/| |\__\|___ \  \_\ \  \\\__\ \  \|\__\   
+ \ \  \  __\ \  \ \   __  \ \  \    \ \  \        \ \    / / \ \_____  \ \  \_|/_\ \  \    \ \  \\\  \ \   _  _\ \  \_|/_\|__|    \ \  \ \ \  \\|__| \  \|__|   
+  \ \  \|\__\_\  \ \  \ \  \ \  \____\ \  \____    \/  /  /   \|____|\  \ \  \_|\ \ \  \____\ \  \\\  \ \  \\  \\ \  \_|\ \  ___   \ \  \ \ \  \    \ \  \  ___ 
+   \ \____________\ \__\ \__\ \_______\ \_______\__/  / /       ____\_\  \ \_______\ \_______\ \_______\ \__\\ _\\ \_______\|\__\   \ \__\ \ \__\    \ \__\|\__\
+    \|____________|\|__|\|__|\|_______|\|_______|\___/ /       |\_________\|_______|\|_______|\|_______|\|__|\|__|\|_______|\|__|    \|__|  \|__|     \|__|\|__|
+                                                \|___|/        \|_________|                                                                                     
+]]--
+
+	return(function(Sa,...)local b,a=({{}}),(...);local la=a[((0x1444))];local z=a[-((3749))];local A=a[-((#{(0x108);(0x0B9);}+(3696)))];local B=a[-((0xE51))];local D=a[((0x1410))];local E=a[((5084))];local na=a[-((3595))];local pa=a[((0x13B4))];local oa=a[-((#{(580);(125);}+(3516)))];local ka=a[-((3476))];local ma=a[((0x1394))];local ja=a[-((#{(718);(0x2AA);(0x13F);}+(0xD80)))];local da=a[-((0xD21))];local y=a[((0x137A))];local C=a[-((3349))];local w=a[((#{(0x138);}+(4897)))];local ea=a[-((0xD0A))];local m=a[((#{[(112)]=(0x1B1);(834);(19);(205);(0x109);}+(4818)))];local o=a[-((#{}+(3297)))];local n=a[-((#{(314);(646);(165);}+(3233)))];local d=a[((0x1291))];local l=a[-((0xC69))];local fa=a[-((3163))];local i=a[((#{(0x116);}+(4659)))];local ha=a[-((#{(555);(532);}+(3065)))];local ga=a[((#{(389);(0x1B7);}+(0x11DA)))];local ia=a[((0x11D2))];local ra=a[((4489))];local ya=a[((4399))];local sa=a[-((0xBE0))];local Ba=a[((#{(90);}+(4323)))];local Da=a[-((3011))];local Ea=a[-((2916))];local Aa=a[-((#{(0x330);(9);(407);}+(0xB1B)))];local Ca=a[-((0xAFE))];local za=a[((0x10C0))];local ua=a[-((#{}+(0xACC)))];local ta=a[((4220))];local va=a[((4174))];local xa=a[((0x101B))];local wa=a[((4031))];local ca=a[-((#{(560);(0x23F);(935);}+(0xA9E)))];local qa=a[((3974))];local ba=a[-((2632))];local N=a[-((#{}+(0x9E6)))];local I=a[((3899))];local K=a[((3893))];local M=a[-((0x997))];local L=a[((0xF0B))];local G=a[((3761))];local J=a[-((2375))];local F=a[((0xE83))];local s=a[-((2282))];local q=a[-((#{(632);(900);}+(2198)))];local t=a[((#{(0x100);(0x1B1);(0x1D8);(0x13F);}+(0xE3B)))];local u=a[-((0x849))];local j=a[-((2090))];local v=a[-((#{}+(0x815)))];local O=a[-((#{(0x0E0);(0x0B9);[(0x0B5)]=(0x1A2);(120);}+(0x7BD)))];local T=a[((3573))];local P=a[-((1930))];local W=a[((3481))];local Y=a[((#{(0x2B9);}+(0xD40)))];local _=a[-((1855))];local Z=a[((0xD0B))];local V=a[-((0x6E3))];local X=a[((0xCE9))];local U=a[((0xCC1))];local Q=a[((3195))];local x=a[((#{(0x0B8);[(0x124)]=(330);(0x24A);(803);}+(3171)))];local R=a[-((0x681))];local S=a[-((0x67D))];local Fa=a[((#{(0x05D);(834);}+(0xC61)))];local aa=a[-((1638))];local p=a[((3077))];local Ga=a[-((#{(132);(732);}+(0x64B)))];local r=a[-((#{}+(1589)))];local Ma=a[((3041))];local Oa=a[-((#{(915);[(0x13A)]=(287);(0x06B);}+(0x60A)))];local Pa=a[((#{(114);(0x12C);(625);(0x213);}+(0xBD5)))];local La=a[((0xB8F))];local Na=a[-((1542))];local k=a[((#{(422);(918);[(730)]=(0x197);(0x019);(0x38E);}+(2880)))];local Ka=a[-((0x5C2))];local h=a[-((#{}+(1379)))];local e=a[-((1301))];local Ha=a[-((1230))];local Ra=a[-((1226))];local Ia=a[((0xB2B))];local Ja=a[((0xAE4))];local Qa=a[((2776))];local f=a[((#{(912);(975);(632);}+(2754)))];local c=a[-((#{[(0x0EB)]=(0x024);(854);(0x245);(748);(0x01E);}+(1215)))];local H=((getfenv)or(function(...)return(_ENV);end));local g,b=(""),(H(c));local Ta,Ta=(f^((#{[(472)]=(0x10A);(0x1F6);[(0x15E)]=(0x254);(803);(0x0E3);}+(29)))),(f^((32)))-c;local e=((b[""..a[Qa].."\105"..a[Ja]..a[Ia]..a[Ra]])or(b["\98"..a[Ha]..a[e]]));local e=(((e)and(e["\98"..a[h].."\111"..a[Ka]]))or(function(a,e)local b,c=c,((0x000));while((a>k)and(e>k))do local d,g=a%f,e%((2));if d~=g then c=c+b;end;a,e,b=(a-d)/f,(e-g)/f,b*((2));end;if a<e then a=e;end;while a>k do local e=a%f;if e>k then c=c+b;end;a,b=(a-e)/f,b*((2));end;return(c);end));local h=(g[""..a[Na]..a[La]..a[Pa]..a[Oa]]);local r=(g[""..a[Ma].."\104"..a[-f]..a[-r]]);local p=(g[""..a[Ga]..a[-p].."\98"]);local x=(b["\115"..a[-aa]..a[Fa]..a[-S].."\101"..a[R]..a[-x]..a[Q].."\97\98"..a[-U].."\101"]);local j=((b[""..a[-X].."\110"..a[V]..a[-Z]..a[-_]..a[Y]])or(b[""..a[-W]..a[P].."\98"..a[T]..a[-O]][""..a[-v]..a[j].."\112\97"..a[u].."\107"]));local s=(b[""..a[-t]..a[q].."\110"..a[s]..a[-F]..a[J]..a[-G]..a[L]]);local J=(b[""..a[M]..a[K].."\116"..a[-I]][""..a[N].."\100\101"..a[-ba].."\112"]);local I=(b["\115"..a[qa].."\108"..a[-ca]..a[wa]..a[-xa]]);local u=(b[""..a[va]..a[ta].."\98"..a[-ua]..a[-za]]["\99"..a[-Ca]..a[Aa]..a[-Ea].."\97\116"]);local b=(b[""..a[Da]..a[Ba].."\98\108"..a[sa]][""..a[ya]..a[-ra]..a[ia]..a[ga]..a[ha].."\116"]);local g=(i);local q,v=({}),({});for a=k,g-((1))do local b=r(a);q[a]=b;v[a]=b;v[b]=a;end;local function t(f)local b,e,d=(""),(""),({});local a=c;local function h()local b=s(p(f,a,a),fa);a=a+c;local c=s(p(f,a,a+b-c),((0x024)));a=a+b;return(c);end;b=r(h());d[c]=b;while(a<#f)do local a=h();if q[a]then e=q[a];else e=b..p(b,c,((#{(0x234);(0x14E);(0x20A);}-(2))));end;q[g]=b..p(e,c,((#{(0x230);(0x0AE);(0x1A6);}-(0x002))));d[#d+c],b,g=e,e,g+c;end;return(u(d));end;local g,b=(t(Sa)),(c);local function s()local f,a,c,g=h(g,b,b+l);f=e(f,d);a=e(a,d);c=e(c,d);g=e(g,d);b=b+n;return((g*o)+(c*m)+(a*i)+f);end;local function q()local a,c=h(g,b,b+f);a=e(a,d);c=e(c,d);b=b+f;return((c*i)+a);end;local function q()local a=e(h(g,b,b),d);b=(b+c);return(a);end;local function r(e,a,b)if(b)then local a=(e/f^(a-c))%((#{}+(0x002)))^((b-c)-(a-c)+((0x001)));return(a-(a%c));else local a=f^(a-c);return(((e%(a+a)>=a)and(c))or(((#{}+(0)))));end;end;local G=""..a[ea];local function q(...)return({...}),I(G,...);end;local function F(...)local a=({});local x=({});local G=({});local j,q,u,t=h(g,b,b+l);j=e(j,d);q=e(q,d);u=e(u,d);t=e(t,d);b=b+n;local j=((t*o)+(u*m)+(q*i)+j);for a=k,j-c,((0x001))do G[a]=F();end;for u=c,s(),c do local a=e(h(g,b,b),d);b=(b+c);local a=(a);local s=a;if(r(s,c,((1)))==((0x000)))then local a,j=h(g,b,b+f);a=e(a,d);j=e(j,d);b=b+f;local a=((j*i)+a);local t=(a);local a,j,k,p=h(g,b,b+l);a=e(a,d);j=e(j,d);k=e(k,d);p=e(p,d);b=b+n;local a=((p*o)+(k*m)+(j*i)+a);local k=(a);local a,p,q,j=h(g,b,b+l);a=e(a,d);p=e(p,d);q=e(q,d);j=e(j,d);b=b+n;local a=((j*o)+(q*m)+(p*i)+a);local p=(a);local j,g,h,a=h(g,b,b+l);j=e(j,d);g=e(g,d);h=e(h,d);a=e(a,d);b=b+n;local a=((a*o)+(h*m)+(g*i)+j);local b=(a);local a=r(s,f,((#{(0x308);(0x244);[(0x131)]=(0x0D5);(0x115);}+(0x000))));if((a==f)or(a==l))then k=k-(f^((#{(12);(0x1FD);(0x185);(0x24E);}+(12))));end;x[u-c]=({[((2278))]=t;[w]=p;[C]=k;[y]=b;});end;end;local j=e(h(g,b,b),d);b=(b+c);local j=(j);local w=j;local t,u,q,j=h(g,b,b+l);t=e(t,d);u=e(u,d);q=e(q,d);j=e(j,d);b=b+n;local j=((j*o)+(q*m)+(u*i)+t);for j=k,j-c,((#{(193);(811);[(365)]=(419);(0x233);(802);}-(0x003)))do local q,t=h(g,b,b+f);q=e(q,d);t=e(t,d);b=b+f;local q=((t*i)+q);local q=q;if(q==da)then local e=e(h(g,b,b),d);b=(b+c);local b=(e);local c=b;a[j]=(b~=k);elseif(q==ja)then while(true)do local b=s();local e=s();local g=c;local d=(r(e,c,((#{}+(0x014))))*(f^((0x020))))+b;local b=r(e,ma,((#{}+(31))));local e=((-c)^r(e,ka));if(b==k)then if(d==k)then a[j]=(e*k);break;else b=c;g=k;end;elseif(b==oa)then a[j]=(d==k)and(e*(c/((#{(0x1DD);}-(0x001)))))or(e*(k/((0x000))));break;end;a[j]=J(e,b-pa)*(g+(d/(f^((52)))));break;end;elseif(q==na)then while(true)do local f=('');local s,r,q,l=h(g,b,b+l);s=e(s,d);r=e(r,d);q=e(q,d);l=e(l,d);b=b+n;local i=((l*o)+(q*m)+(r*i)+s);local i=i;if(i==k)then a[j]=f;break;end;local g=p(g,b,b+i-c);b=b+i;for a=c,#(g),c do f=f..v[e(h(p(g,a,a)),d)];end;a[j]=f;break;end;else a[j]=(nil);end;end;return({[E]=x;[D]=((0));[B]=G;[A]=a;[z]=w;});end;local function r(a,l,m,...)local v=a[E];local h=a[A];local u=a[B];local n=a[z];local f=a[D];return(function(...)local i=-(c);local t={};local p={...};local s=I(G,...)-c;local o={};local b={};local g=y;local d=C;local e=w;local w=la;for a=k,s,c do if(a>=n)then t[a-n]=p[a+c];else b[a]=p[a+c];end;end;local a=s-n+c local f=f;local a,c=(nil),(nil);while(true)do a=v[f];c=a[w];if(c<=(22))then if(c<=(10))then if(c<=(0x004))then if(c<=(1))then if(c==(0))then local a=a[e];b[a]=b[a](j(b,a+(0x001),i));elseif(c<=(0x001))then b[a[e]]=b[a[d]][h[a[g]]];elseif(c<=(46))then if(c>(2))then if(b[a[e]]<=h[a[g]])then f=f+(1);else f=a[d];end;elseif(c<(0x014))then b=({});for a=(0),s do if(a<n)then b[a]=p[a+(0x001)];else break end;end;end;elseif(c<=(0x02E))then b[a[e]]=(not(b[a[d]]));elseif(c>(0x015))then b[a[e]]=b[a[d]]/h[a[g]];elseif(c<(9))then b[a[e]]=h[a[d]]^b[a[g]];end;elseif(c<=(2))then b[a[e]]=h[a[d]];elseif(c==(3))then do return;end;elseif(c<=(0x004))then local a=a[e];b[a]=b[a](b[a+(0x001)]);elseif(c<=(0x02E))then if(c>(0x011))then b[a[e]]=b[a[d]]%h[a[g]];elseif(c<(0x01B))then local f=({});local c=a[d];for a=c,i,(1) do f[(a-c)+(1)]=b[a];b[a]=(nil);end;b[a[e]]=f;end;elseif(c<=(0x02E))then local c=a[e];b[c](j(b,c+(1),a[d]));elseif(c>(0x01D))then local c=b[a[g]];if(c)then f=f+(1);else b[a[e]]=c;f=a[d];end;elseif(c<(0x013))then local a=a[e];b[a](j(b,a+(0x001),i));end;elseif(c<=(0x007))then if(c<=(0x005))then local i=u[a[d]];local h,c=(nil),({});h=x(({}),({__index=(function(b,a)local a=c[a];return a[(1)][a[(2)]];end);__newindex=(function(e,a,b)local a=c[a];a[(0x001)][a[(0x002)]]=b;end);}));for e=(1),a[g],(0x001) do f=f+(0x001);local a=v[f];if(a[w]==(20))then c[e-(1)]=({b,a[d]});else c[e-(1)]=({l,a[d]});end;o[#o+(0x001)]=c;end;b[a[e]]=r(i,h,m);elseif(c==(6))then local a=a[e];b[a]=b[a](j(b,a+(0x001),i));elseif(c<=(0x007))then local a=a[e];b[a](b[a+(1)]);elseif(c<=(0x02E))then if(c==(34))then local c=a[e];local d=b[c];local a,e=(0x000),(0x032)*(a[g]-(1));for c=c+(1),i do d[e+a+(0x001)]=b[c];a=a+(1);end;elseif(c<=(24))then b[a[e]]=h[a[d]]/h[a[g]];end;elseif(c<=(0x02E))then b[a[e]]=b[a[d]]-h[a[g]];elseif(c>(31))then local f=(b[a[g]]);local c=a[e];for a=c,a[d],(0x001) do b[a]=f[(a-c)+(0x001)];end;elseif(c<(0x006))then for a=a[e],a[d]do b[a]=(nil);end;end;elseif(c<=(0x008))then local a=a[e];b[a]=b[a]();elseif(c==(0x009))then b[a[e]]=l[a[d]];elseif(c<=(0x00A))then local c=a[e];local e,a=q(b[c](j(b,c+(0x001),a[d])));i=a+c-(0x001);local a=(0x000);for c=c,i do a=a+(0x001);b[c]=e[a];end;elseif(c<=(46))then if(c==(0x01D))then local a=a[e];b[a](j(b,a+(1),i));elseif(c<=(0x013))then local c=b[a[g]];if(c)then f=f+(1);else b[a[e]]=c;f=a[d];end;end;elseif(c<=(46))then l[a[d]]=b[a[e]];elseif(c==(38))then b[a[e]]=h[a[d]]*b[a[g]];elseif(c<=(0x025))then local c=a[e];local g=b[c+(2)];local e=b[c]+g;b[c]=e;if(g>(0x000))then if(e<=b[c+(0x001)])then f=a[d];b[c+(3)]=e;end;elseif(e>=b[c+(0x001)])then f=a[d];b[c+(3)]=e;end;end;elseif(c<=(16))then if(c<=(13))then if(c<=(11))then local a=a[e];b[a]=b[a](b[a+(1)]);elseif(c==(12))then local c=a[e];local g=b[c+(2)];local e=b[c]+g;b[c]=e;if(g>(0x000))then if(e<=b[c+(1)])then f=a[d];b[c+(0x003)]=e;end;elseif(e>=b[c+(0x001)])then f=a[d];b[c+(3)]=e;end;elseif(c<=(0x00D))then b[a[e]]=m[h[a[d]]];elseif(c<=(0x02E))then if(c>(11))then local c=a[e];b[c](j(b,c+(1),a[d]));elseif(c<(0x00D))then b[a[e]]=h[a[d]]+h[a[g]];end;elseif(c<=(46))then local c=a[e];b[c]=b[c](j(b,c+(0x001),a[d]));elseif(c>(0x020))then local c=a[e];local a=a[d];for a=(0x001),a,(1) do b[c+a-(1)]=t[a-(1)];end;elseif(c<(0x016))then if(not(b[a[e]]))then f=f+(1);else f=a[d];end;end;elseif(c<=(14))then local c=a[e];local e,a=q(b[c](j(b,c+(1),a[d])));i=a+c-(0x001);local a=(0);for c=c,i do a=a+(0x001);b[c]=e[a];end;elseif(c>(0x00F))then if(b[a[e]])then f=f+(1);else f=a[d];end;elseif(c<(0x010))then do return;end;elseif(c<=(0x02E))then if(c>(32))then b[a[e]]=b[a[d]]^b[a[g]];elseif(c<(12))then if(not(b[a[e]]))then f=f+(0x001);else f=a[d];end;end;elseif(c<=(46))then if(h[a[e]]<=h[a[g]])then f=a[d];else f=f+(0x001);end;elseif(c==(0))then if(b[a[e]]==h[a[g]])then f=f+(1);else f=a[d];end;elseif(c<=(20))then b[a[e]]=b[a[d]]/b[a[g]];end;elseif(c<=(0x013))then if(c<=(17))then local c=a[e];b[c](j(b,c+(0x001),a[d]));elseif(c==(18))then b[a[e]]=l[a[d]];elseif(c<=(0x013))then local c=a[e];b[c]=b[c](j(b,c+(1),a[d]));elseif(c<=(46))then if(c==(35))then local i=u[a[d]];local h,c=(nil),({});h=x(({}),({__index=(function(b,a)local a=c[a];return a[(0x001)][a[(0x002)]];end);__newindex=(function(e,a,b)local a=c[a];a[(1)][a[(2)]]=b;end);}));for e=(0x001),a[g],(0x001) do f=f+(0x001);local a=v[f];if(a[w]==(20))then c[e-(0x001)]=({b,a[d]});else c[e-(1)]=({l,a[d]});end;o[#o+(0x001)]=c;end;b[a[e]]=r(i,h,m);elseif(c<=(0x000))then local c=a[e];local e,a=q(b[c](j(b,c+(0x001),a[d])));i=a+c-(1);local a=(0);for c=c,i do a=a+(0x001);b[c]=e[a];end;end;elseif(c<=(0x02E))then if(b[a[e]]<=h[a[g]])then f=a[d];else f=f+(1);end;elseif(c>(0x029))then b[a[e]]=(a[d]~=(0x000));elseif(c<(14))then b[a[e]]=b[a[d]]*b[a[g]];end;elseif(c<=(0x014))then b[a[e]]=b[a[d]];elseif(c==(21))then b[a[e]]=({});elseif(c<=(0x016))then local c=a[e];local e=b[a[d]];b[c+(0x001)]=e;b[c]=e[h[a[g]]];elseif(c<=(46))then if(c>(0x02D))then if(h[a[e]]<=b[a[g]])then f=f+(1);else f=a[d];end;elseif(c<(0x013))then local c=a[e];local d={b[c](b[c+(1)]);};local e=(0);for a=c,a[g]do e=e+(1);b[a]=d[e];end;end;elseif(c<=(0x02E))then b[a[e]]=h[a[d]]%b[a[g]];elseif(c>(0x016))then b[a[e]]=b[a[d]][b[a[g]]];elseif(c<(4))then b[a[e]]=h[a[d]]%h[a[g]];end;elseif(c<=(0x021))then if(c<=(0x01B))then if(c<=(0x018))then if(c==(23))then local c=a[e];local e=b[c];local g=b[c+(0x002)];if(g>(0x000))then if(e>b[c+(1)])then f=a[d];else b[c+(3)]=e;end;elseif(e<b[c+(1)])then f=a[d];else b[c+(0x003)]=e;end;elseif(c<=(24))then b=({});for a=(0),s do if(a<n)then b[a]=p[a+(0x001)];else break end;end;elseif(c<=(0x02E))then if(c>(33))then b[a[e]]=m[h[a[d]]];elseif(c<(0x01E))then local e=a[e];local d=({b[e](j(b,e+(0x001),a[d]))});local c=(0x000);for a=e,a[g],(1) do c=c+(1);b[a]=d[c];end;end;elseif(c<=(0x02E))then b[a[e]]=h[a[d]]^b[a[g]];elseif(c==(0x00C))then b[a[e]]=l[a[d]];elseif(c<=(0x016))then local c=a[e];local a=a[d];for a=(0x001),a,(1) do b[c+a-(1)]=t[a-(1)];end;end;elseif(c<=(0x019))then b[a[e]]=m[h[a[d]]];elseif(c==(0x01A))then f=a[d];elseif(c<=(0x01B))then b[a[e]][h[a[d]]]=h[a[g]];elseif(c<=(0x02E))then if(c==(0x015))then local a=a[e];b[a]=b[a](b[a+(1)]);elseif(c<=(0x000))then local c=a[e];local e,a=q(b[c](j(b,c+(1),a[d])));i=a+c-(0x001);local a=(0x000);for c=c,i do a=a+(0x001);b[c]=e[a];end;end;elseif(c<=(46))then if(b[a[e]]<b[a[g]])then f=a[d];else f=f+(1);end;elseif(c==(0x011))then if(h[a[e]]<=h[a[g]])then f=a[d];else f=f+(1);end;elseif(c<=(0x017))then if(h[a[e]]<h[a[g]])then f=f+(0x001);else f=a[d];end;end;elseif(c<=(30))then if(c<=(28))then local i=u[a[d]];local h,c=(nil),({});h=x(({}),({__index=(function(b,a)local a=c[a];return a[(1)][a[(2)]];end);__newindex=(function(e,a,b)local a=c[a];a[(0x001)][a[(0x002)]]=b;end);}));for e=(0x001),a[g],(0x001) do f=f+(0x001);local a=v[f];if(a[w]==(0x014))then c[e-(0x001)]=({b,a[d]});else c[e-(1)]=({l,a[d]});end;o[#o+(1)]=c;end;b[a[e]]=r(i,h,m);elseif(c==(29))then local e=a[e];local c=b[a[d]];b[e+(0x001)]=c;b[e]=c[h[a[g]]];elseif(c<=(30))then local c=a[e];local e=b[c];local g=b[c+(0x002)];if(g>(0x000))then if(e>b[c+(0x001)])then f=a[d];else b[c+(3)]=e;end;elseif(e<b[c+(0x001)])then f=a[d];else b[c+(0x003)]=e;end;elseif(c<=(46))then if(c>(0x01C))then local f=(b[a[g]]);local c=a[e];for a=c,a[d],(0x001) do b[a]=f[(a-c)+(1)];end;elseif(c<(0x006))then local c=a[e];local e={b[c]();};local d=a[g];local a=(0x000);for c=c,d do a=a+(1);b[c]=e[a];end;end;elseif(c<=(0x02E))then b[a[e]]=b[a[d]]^b[a[g]];elseif(c>(30))then local c=({});local d=a[d];for a=d,a[g],(1) do c[(a-d)+(0x001)]=b[a];b[a]=(nil);end;b[a[e]]=c;elseif(c<(0x01A))then local c=b[a[g]];if(not(c))then f=f+(0x001);else b[a[e]]=c;f=a[d];end;end;elseif(c<=(31))then b[a[e]]=({});elseif(c==(0x020))then b=({});for a=(0x000),s do if(a<n)then b[a]=p[a+(0x001)];else break end;end;elseif(c<=(33))then b[a[e]]=b[a[d]][h[a[g]]];elseif(c<=(46))then if(c>(45))then b[a[e]]=h[a[d]]/b[a[g]];elseif(c<(0x004))then local c=a[e];local d={b[c](b[c+(1)]);};local e=(0x000);for a=c,a[g]do e=e+(0x001);b[a]=d[e];end;end;elseif(c<=(0x02E))then if(h[a[e]]<h[a[g]])then f=a[d];else f=f+(0x001);end;elseif(c==(29))then b[a[e]]=(a[d]~=(0x000));f=f+(0x001);elseif(c<=(30))then local c=b[a[g]];if(not(c))then f=f+(0x001);else b[a[e]]=c;f=a[d];end;end;elseif(c<=(39))then if(c<=(36))then if(c<=(34))then local c=a[e];b[c](j(b,c+(0x001),a[d]));elseif(c>(0x023))then b[a[e]]=b[a[d]];elseif(c<(0x024))then local c=a[e];b[c]=b[c](j(b,c+(0x001),a[d]));elseif(c<=(0x02E))then if(c==(0x004))then local c=a[e];local e,a=q(b[c]());i=a+c-(1);local a=(0x000);for c=c,i do a=a+(1);b[c]=e[a];end;elseif(c<=(0x022))then local c=a[e];local d=b[c];local a,e=(0x000),(50)*(a[g]-(0x001));for c=c+(0x001),i do d[e+a+(0x001)]=b[c];a=a+(0x001);end;end;elseif(c<=(0x02E))then b[a[e]]=(not(b[a[d]]));elseif(c>(42))then if(h[a[e]]<=b[a[g]])then f=a[d];else f=f+(1);end;elseif(c<(0x00A))then do return;end;end;elseif(c<=(0x025))then local a=a[e];b[a](b[a+(0x001)]);elseif(c==(0x026))then b[a[e]][h[a[d]]]=h[a[g]];elseif(c<=(0x027))then b[a[e]]=(a[d]~=(0));elseif(c<=(0x02E))then if(c==(0x010))then if(b[a[e]]<=b[a[g]])then f=a[d];else f=f+(0x001);end;elseif(c<=(3))then if(b[a[e]]<b[a[g]])then f=a[d];else f=f+(1);end;end;elseif(c<=(46))then if(h[a[e]]<b[a[g]])then f=a[d];else f=f+(1);end;elseif(c==(0x019))then local c=a[e];local e=b[a[d]];b[c+(1)]=e;b[c]=e[b[a[g]]];elseif(c<=(22))then local c=a[e];local a=a[d];for a=(1),a,(1) do b[c+a-(1)]=t[a-(1)];end;end;elseif(c<=(42))then if(c<=(0x028))then b[a[e]]=h[a[d]];elseif(c>(41))then local a=a[e];b[a]=b[a]();elseif(c<(42))then local c=a[e];local g=b[c+(2)];local e=b[c]+g;b[c]=e;if(g>(0))then if(e<=b[c+(0x001)])then f=a[d];b[c+(3)]=e;end;elseif(e>=b[c+(1)])then f=a[d];b[c+(3)]=e;end;elseif(c<=(46))then if(c==(0x021))then local e=a[e];local d=({b[e](j(b,e+(0x001),a[d]))});local c=(0);for a=e,a[g],(1) do c=c+(0x001);b[a]=d[c];end;elseif(c<=(33))then local a=a[e];b[a](b[a+(0x001)]);end;elseif(c<=(46))then b[a[e]]=h[a[d]]%h[a[g]];elseif(c>(17))then b[a[e]]=b[a[d]]/h[a[g]];elseif(c<(9))then if(h[a[e]]<=h[a[g]])then f=a[d];else f=f+(1);end;end;elseif(c<=(0x02B))then if(b[a[e]])then f=f+(1);else f=a[d];end;elseif(c>(44))then f=a[d];elseif(c<(45))then b[a[e]]=(a[d]~=(0));elseif(c<=(0x02E))then if(c>(17))then if(b[a[e]]~=b[a[g]])then f=f+(0x001);else f=a[d];end;elseif(c<(22))then local f=({});local c=a[d];for a=c,i,(0x001) do f[(a-c)+(0x001)]=b[a];b[a]=(nil);end;b[a[e]]=f;end;elseif(c<=(0x02E))then if(b[a[e]]==b[a[g]])then f=f+(0x001);else f=a[d];end;elseif(c>(3))then b[a[e]]=r(u[a[d]],(nil),m);elseif(c<(0x000))then if(b[a[e]]<b[a[g]])then f=a[d];else f=f+(1);end;end;f=f+(1);end;end);end;return r(F(),{},H())();end)("25S26327527626325R27725F27727C27725L26R26326027626227D26327F27C26127L27N27I27527S27C26725O26325M26327K27K27D27R27626627L26327327C26527Q27G27U26427L27W26325Y28026328627L25U27C28O27D26Z25P26328Q28U27J27728O28226327428N28K27525Z28726X26329627528V29026726Q26325V28K28M27C25L25E26327P27529J27E27G27728B27L28F29O28L28X27529E26326728K29027C25W2942872802A327526J29X27625V24B24F26625T27624D24Y24P25A23S25A24P24T2AR2AI2AB26324S25624Y24V2AD27D21726C2772A727627B2A927629L2A82A929H2A527629X26526O28I2BD27V25D2BL2BG28P2BA27626Z26Y2A929X2BU2BS2752BJ29Z28G2BO2752BQ28Y2BM28328D2C227C29W27L29D2C42C82B62CH27V2762AI29U26324R24Y2512582AU2662AW2AY2B02AI29J25925325625824O2B227C24224B27725X27A2BZ27M29S27627U27E29M29D28728927729Q27727429X2AW29X27N2DM28G27X27427K2DG2C727728F28R28T2E22632E52AE28Z27628V2BR2902AK27L2982EE2E62C22A128B2DY2872A72C627726027U2D52772B42AI29H27524V25025124U2522552CT2EH2AM2AO2AQ2AS2AR2DU2B82DC28W2BZ2DT2CB2E129N2CE2CI2EP2772902ET2762D72FC2752B92BZ2EB2A92FH2C52872CD27D2A52EO2BZ2FP2AE27523M2D82852DB2DC2FX2872FZ2CJ2G227C2G42CJ2FO2762FQ26324B2572GB29P2GD2FW2DC2GH2EP2GJ2GN2762G52BS2G727C1R2552GT29Y2FD2GE2GX2DE2G029V2FK2G32FM2G62GO2G826324Y2H929Q2FV2BS2GF28C2GK2G12HH2HV2H22GM2C22GP24B2502HP2GV2HS2HD2HY27D2H02CB2H32BA2H52771R24P2I52HB2GW2FG2HE2GI2HX2H12752ID2A92IF27621N24U24B24Z2I62FY29M25J2BS2BC26W2FI27528S2A829026Z2BB27G27Z27T2872702A82AW27C2AK2AW2FN2BW2772BF27L2BX28T2IQ25L2JD26329M2JG27L25K27H2C22JT2A829X29827527N2DE2JK2772K22DR2BH2BT28T29027U2K82DD2632FV2DN2762K229J27U2K52DJ2752KL27N2JI2C02872K22CN2KF2J82KI2GC2KW2JX2712762E527C2K22E529J2DS29M2792L028R2BV2CN2CN25Q2JX28J2752LC2BB2JZ2AF27L2BY2EX29G2EA2JX2AW2HT27N25H2762EH2JL2632EH2LZ2BS2CN2LH2632J62LS2LX2E42LB2762DA2K927G2902HT2632K228V2E72BT2BV2E52E52LZ2J92MY2KG2MO2632CG2MR2MT2ML2752BI2J32G02LZ2AE2792LT27L2792CN2872J92MQ2DF2JX27227629227D2LP27729A2A826J2LA29F2952HZ2KQ2992M12NA2LU26325I2M727L2652J32812912N32752792JO2OH2M02BS2GJ2EH2JB2L62752EH2NW27N2DL2O427L2NU2762LR2HX2NY2632O02BL2GU2AC2LA27X2752P02K22C02J327P27K2MN2IP2NG2BZ2NJ2BZ2K22PH2EH2KU2NR2762JU2KM25N2OZ2OB2J327I2PG2CB2792MC2L12632PH2NS2PQ2O12752PT27N2E52PH29T2J32A327K2B72BD2Q22PM2632QJ2NW2Q82P52632QB27G25G2O228A2J328627K2PV2HF2OK2Q32K12632R12QR2QQ2PH2QT2OF2752R72QF2632EL27Y2Q12OL2BA2K22JF2Q52OG2NM2QW2RB2CN2RN2RF28F27K2JW2R22782RK2A92K22RY2QN2RP2OQ2R62PS2JX2EH2S42RF2JR2PC2QK2S12Q42SF2R72QQ2RN2RB25C2O327D2OC28W27K2LJ2SG2R427D2K22SU2RN2QQ2S42RB2BV2OK2SQ2J32AK27K2OY2A52QL2BS2K22OY2S42AE2IS28726P2CL2CU27625225624V24Z2AI2RN23T25A24R25324Y2542TP25A25B23S2EZ24P2D225A2AI2NW23W2AZ24V24D25024P24824Z24Y25325B2CM27623Z25025825825325A2GP24X1Z2AH26629X24S24O2AI28V23V2CQ25826Z26I26J24W26O2EW2762V32CR26Z26G2V92AI2SO27524F25A25925624U25324V2UG2TP23S24I24O24V25A2522VS24V24E2AT25124V2V02662CN2U525125B2502522V12VC2V42V626N2VH2662LZ2VD2V526K2WJ27U24925024J2UL27526C2WW2WX2AI2EH24C25A24V2F924T2TY2U72W72762CP2CR2CT2WL2WG26I2WJ2T426324Z24V24V24R24O26926S26S24R2562VW25A2552CQ26T2542WC26S2U524S26S23T24T24126J24Q25A24S2WD2662NW2482AO2U023W2CQ2WB24S2WU2632F12F32CT2CN2VW24P2V42AI27U2AO24R2YL24924U2XK2F02AV27624V24I24R2X72O927524225926Z24I25024U26Z24R2AO24O24O26Z25626Z25325024V26Z2502ZC2552Z02EZ2512W62P02X42AR26Z2WM2CT2RN23S25624I24625A2ZK2U62TU24Q24U310B24V2WE2752WM2V62WO2VA2AJ2762ZP25625B2YR2YT26629J24O2XR24S2512FQ22J22N25H24A2VB310K2WG26M2WJ2E52432XK24R2X1310I2662KL2YE2XS24Z26Z310124P26V26Z26A26A27226Z2EZ26Z24W2TY24W2ZD2ZF24P24O25A2532592AI2E52AQ25424V24Y2Z22TM2752582562522X72NW2AQ2WA26Z2TU2522ZQ310B2U827623W2UH2UR31032V42CT2XH312V25A25131212ZG2542TX25424W311Q2TQ2AR25A26Z2TO24I26Z2F42ZO2D22W62VJ2632ZE2ZG313G26Z2CS2ZR311Y31392U126Z24S2B0311M311S2722AI2S4246310S313E255313H25624S25B2XS26W26B26K314H2Z32752D02D2",{[((1762))]="\109";[-((0x21A))]="\97";[((0x10E4))]=(((2028)));[-((1984))]=((#{(938);(694);(0x201);(788);}+(692)));[((0x215))]="\50";[-((#{(0x05A);(0x33A);(0x313);(0x3D1);}+(1661)))]=(((1095)));[((3195))]=((0x470));[((4031))]=(((0x512)));[-((#{}+(2375)))]=(((#{(0x043);(0x070);(0x231);(0x137);}+(959))));[((#{(0x094);(0x2B1);(580);(473);}+(0x26B)))]="\116";[-((#{[(0x102)]=(39);[(507)]=(0x1C1);[(0x2D7)]=(576);[(642)]=(192);(0x1AA);}+(0xC68)))]=((#{((#{}+(0x05A)));(146);(0x000);(0x3DE);}-(0x001)));[((#{(0x138);(0x2B0);}+(0xE3D)))]=((0x06E));[((1739))]="\99";[((0xF0B))]=((#{(754);((0x210));}+(0x3F0)));[-((#{(0x101);}+(0x4A1)))]="\99";[((3481))]=((0x274));[-((#{}+(0x062)))]="\117";[((#{(798);(715);(0x0B7);(0x332);}+(0x1230)))]=((#{((#{(0x3CE);[(718)]=(0x1D9);(125);}+(0x200)));[((808))]=(0x114);((899));[(568)]=(26);((0x2FB));[((0x16C))]=(939);((461));}+(0x0FC)));[((#{(0x368);[(552)]=(0x1C6);(0x181);(446);[(0x1DA)]=(0x2AE);[(0x2AF)]=(532);(0x222);}+(4568)))]=((0x8FC));[((#{}+(0xDF5)))]=((1600));[-((1542))]=((#{((0x194));((0x197));}+((#{[(917)]=(0x3A3);(0x3BE);[(0x2BE)]=(923);[(0x2DD)]=(214);[(0x042)]=(198);(0x294);}+(238)))));[-((0xE0B))]=((1348));[((1678))]="\110";[-((#{}+(2916)))]=((#{[((789))]=((0x2AF));(566);(964);((46));((#{(743);(0x28C);(823);(619);}+(0x37C)));}+(1182)));[-((0x3EE))]="\110";[-((#{(0x0F1);(775);[(236)]=(553);(0x11B);(659);}+(0xEA1)))]=((#{(27);[((#{(122);(751);[(406)]=(0x39D);(359);(0x120);}+(69)))]=(922);((862));((#{(0x14A);(136);(790);}+(0x298)));}+(0xC66)));[((0xC05))]=((0x062));[((3899))]=((#{}+(0x339)));[-((#{(553);(0x259);}+(0x561)))]=((0x2C8));[((0xA56))]="\110";[((#{(0x135);(0x2B5);}+(2774)))]=((#{}+(0x160)));[-((#{}+(1763)))]=(((#{(179);(775);[(453)]=(483);(130);}+(0x55E))));[((#{(960);(0x260);}+(2882)))]=(((#{[(0x331)]=(0x27A);(0x37C);(0x036);(0x1D6);}-(0x003))));[-((0xE72))]=(((#{(0x2FC);(869);(0x143);(0x08C);}+(2198))));[-((#{[(518)]=(0x1EF);(331);(769);(0x237);(0x0E0);}+(0x013)))]="\114";[-((0x43B))]="\101";[-((3476))]=((#{[(0x14D)]=(743);((0x332));(0x396);(0x26D);}+(0x01D)));[-((0x8EA))]=((0x392));[((0x447))]="\116";[-((#{(0x376);}+(0xBC2)))]=((0x7C0));[((#{(0x0CB);(0x241);(0x2F4);(691);}+(0x9A7)))]="\116";[((3761))]=((186));[((#{[(507)]=(721);(591);(371);(0x26F);}+(0xD08)))]=(((0x21A)));[((0x1322))]=((#{((#{(0x1A5);}+(0x3A9)));((0x39A));((#{}+(880)));}+((#{(948);}+(739)))));[-((#{(0x1F5);(0x06D);(0x160);(0x1DD);}+(1851)))]=((0x25B));[((#{(0x194);}+(0xD40)))]=(((0x5BC)));[-((0xC5B))]=((36));[((352))]="\98";[-((#{}+(300)))]="\97";[((0x3F2))]="\114";[-((#{[(430)]=(916);(0x373);(0x3D1);}+(231)))]="\101";[-((0xCE1))]=(((16777216)));[((801))]="\121";[-((#{(387);}+(2631)))]=((#{}+((908))));[((0x09E))]="\116";[((#{}+(3174)))]=(((300)));[((0x9F6))]="\97";[-((#{(0x354);(327);(0x230);(59);}+(0x427)))]="\108";[-((0x0BA))]="\101";[((0x107C))]=((#{[(961)]=(213);((0x324));(701);((424));[(505)]=(0x0BB);(0x0D5);}+(0x9F2)));[-((322))]="\108";[((0x1394))]=((#{(543);}+((20))));[((#{(0x2E7);}+(0x8FB)))]="\101";[((#{}+(0x392)))]="\117";[-((0x12B))]="\109";[((#{(0x279);(0x05C);(0x133);}+(821)))]="\115";[((712))]="\120";[((#{(0x118);(807);(161);[(0x1D1)]=(171);(0x389);}+(0x7BC)))]="\116";[((0x088))]="\101";[((#{(413);(0x0AB);}+(0xB8D)))]=((801));[((#{}+(1468)))]="\107";[((0xE83))]=((117));[((2718))]="\35";[-((#{(760);}+(116)))]="\109";[((#{(661);(0x12F);(594);(0x39F);}+(238)))]="\98";[-((3349))]=((#{[(0x173)]=(967);(154);}+(1371)));[((#{(0x2AB);(597);(0x398);(0x141);}+(0x7E8)))]="\97";[((0x122))]="\105";[-((0x815))]=((0x30F));[-((#{}+(0x38C)))]="\120";[((#{(0x116);}+(1225)))]="\101";[-((0x9E6))]=((#{((#{(264);[(413)]=(551);(0x191);}+(750)));}+(1899)));[((0xF35))]=((#{(888);((0x242));}+((0x714))));[((#{(78);(0x1A5);}+(4560)))]=(((0x89B)));[-((0x78A))]=(((#{(0x016);(0x318);(656);(0x393);}+(1531))));[((0x101B))]=(((414)));[((0x640))]="\108";[((0x12D6))]=((65536));[-((0x1F0))]="\117";[((#{}+(0x3C3)))]="\98";[-((1474))]=((#{(0x310);(934);}+(784)));[-((0xDBE))]=(((2047)));[-((0x849))]=((1739));[((0x1444))]=(((0x8E6)));[-((0xBFB))]=((#{((377));(0x137);[(0x2F7)]=(0x1EE);((0x303));}+((2389))));[-((#{(0x034);[(875)]=(136);(0x08B);(0x05A);}-(0x001)))]="\97";[-((0x4CE))]=(((#{[(0x225)]=(0x2A5);(0x2DC);(810);(310);(0x145);}+(286))));[((0xC63))]=((#{((8));((#{(0x3E5);[(0x27C)]=(476);(42);(0x273);}+(0x0AB)));((#{(0x11C);(0x146);(829);}+(299)));}+(0x442)));[((#{(524);[(275)]=(535);(166);(665);}+(62)))]="\99";[-((0x82A))]=((0x68E));[((0x5FF))]="\97";[((0xBE1))]=((#{((0x071));}+((64))));[-((110))]="\116";[-((#{(0x3BD);(0x290);(208);}+(1113)))]="\111";[-((2200))]=(((#{(503);(593);}+(0x372))));[((#{[(0x222)]=(0x231);[(876)]=(0x237);(894);(0x2C0);}+(4751)))]=((#{(531);((232));(802);}+(0x0D8)));[-((#{(0x39D);(261);[(198)]=(603);(0x351);(20);}+(410)))]="\116";[-((0x64D))]=((#{}+(0x338)));[((1814))]="\97";[((0x445))]="\116";[((0x13B4))]=(((0x3FF)));[-((0xD21))]=((470));[-((#{(299);(713);(0x336);}+(1586)))]=(((#{(0x1AE);(0x12A);(0x1F3);(0x16C);}+(19))));[-((#{(622);(990);(686);(0x23A);}+(0x4C6)))]=((#{(342);[(0x065)]=(0x3B6);[(402)]=((#{}+(0x25C)));((322));((0x1D4));}+(0x212)));[((#{(91);(0x0B4);(0x243);}+(881)))]="\111";[-((#{(377);[(531)]=(0x3B5);(744);[(733)]=(553);[(833)]=(603);(8);}+(693)))]="\101";[((#{(0x25D);(0x38B);(0x3C0);}+(0xB28)))]=((481));[((#{(130);[(0x0B9)]=(0x1E9);[(214)]=(0x232);(370);(369);(803);}+(0xAC1)))]=((2));[((4288))]=((#{(425);((344));((596));}+((0x438))));[((0x76C))]="\108";[-((#{}+(628)))]="\116";[-((0xCA4))]=((4));[-((0xACC))]=((#{(287);[(846)]=(413);((#{(237);(844);}+(106)));}+(0x429)));[((1136))]="\116";[((2788))]=((#{[((#{(0x2B2);(0x015);}+(735)))]=((129));((592));[((0x25B))]=((0x105));[(0x167)]=((112));((0x1C0));(0x1CE);(554);}+(0x180)));[-((#{(0x0D5);(701);}+(0x181)))]="\101";[-((#{(0x051);(740);(0x2A9);[(0x1C2)]=(0x1A5);[(0x05B)]=(587);[(0x046)]=(327);(0x257);}+(0x30B)))]="\117";[-((0xAFE))]=((#{((0x38D));((248));}+((0x45A))));[-((#{(0x3AB);}+(2454)))]=((1762));[((#{}+(0x1189)))]=(((#{(0x176);(623);(0x099);}+(1003))));[((#{(0x2F1);(0x08D);(219);(0x064);}+(384)))]="\116";[-((#{}+(1638)))]=((#{}+((#{(949);[(909)]=(258);(610);(337);}+(230)))));[((0x561))]="\112";[((0x89B))]="\115";[-((2721))]=((0x183));[((4399))]=(((#{(299);(0x1B5);(0x149);}+(2181))));[-((3665))]=((#{(549);((386));((0x2CC));}+((0x6A8))));[-((#{(847);(0x005);}+(0xBDE)))]=((2120));[-((0x60C))]=(((0x088)));[((0x312))]="\114";[((0xCE9))]=((#{(437);}+(0x1EF)));[((1298))]="\99";[((#{(0x22A);[(351)]=(805);(0x172);(59);}+(2181)))]="\105";[-((#{(558);}+(1300)))]=(((623)));[-((603))]="\99";[((2120))]="\101";[((#{[(0x114)]=(0x317);(0x280);(878);[(0x2E0)]=(713);(0x1F2);}+(0x1377)))]=((0x61A));[((#{(893);}+(0x13DB)))]=(((#{(629);(291);(540);}+(0x2CE))));[((#{[(884)]=(658);(0x2D3);(365);[(839)]=(0x39A);(0x2BB);(176);}+(3029)))]=(((158)));[((#{(19);[(86)]=(829);[(0x340)]=(0x037);[(0x193)]=(0x224);(0x30D);}+(0xCBF)))]=((#{(545);(970);(0x2E8);((#{(665);[(0x2F8)]=(0x201);(170);(0x3BE);}+(20)));}+(318)));[((0x958))]="\114";[((0x1410))]=((#{}+((4172))));[-((3459))]=((560));[-((0x339))]="\104";[((3974))]=(((1226)));[((0x104E))]=((0x9AB));[-((2846))]=((#{[(0x0CB)]=(660);[(414)]=(0x008);(0x297);[(0x013)]=((0x26B));((#{(0x1D9);}+(0x207)));((#{(185);}+(494)));(0x2E6);}+((#{(315);(124);(0x16B);[(0x1A9)]=(0x28B);(248);}+(2638)))));[-((#{(959);(522);(0x1D9);(0x36F);}+(0x4BF)))]=((#{(0x117);}+(0)));[-((0xD0A))]=((0xA9E));[((#{(0x08D);(0x1EE);(0x2F6);}+(478)))]="\51";[-((#{(0x1F0);[(487)]=(972);(0x32D);(204);}+(0x67A)))]=((299));},(function(...)end));
+end)
+
+oof.Name = "oof"
+oof.Parent = Main
+oof.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+oof.Position = UDim2.new(0.595982194, 0, 0.466783196, 0)
+oof.Size = UDim2.new(0, 153, 0, 50)
+oof.Font = Enum.Font.SourceSans
+oof.Text = "oof"
+oof.TextColor3 = Color3.fromRGB(0, 0, 0)
+oof.TextSize = 14.000
+oof.MouseButton1Down:connect(function()
+	local troller = Instance.new("ScreenGui")
+	local Main = Instance.new("Frame")
+	local nameofgui = Instance.new("TextLabel")
+	local border = Instance.new("Frame")
+	local invis = Instance.new("TextButton")
+	local pp = Instance.new("TextButton")
+	local memedog = Instance.new("TextLabel")
+	local die = Instance.new("TextLabel")
+	local worm = Instance.new("TextButton")
+	local cycl = Instance.new("TextButton")
+	local axy = Instance.new("TextLabel")
+	local diemie = Instance.new("TextLabel")
+
+	troller.Name = "troller"
+	troller.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	troller.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	troller.ResetOnSpawn = false
+
+	Main.Name = "Main"
+	Main.Parent = troller
+	Main.BackgroundColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+	Main.BorderSizePixel = 0
+	Main.ClipsDescendants = true
+	Main.Position = UDim2.new(0.04588015, 0, 0.087649405, 0)
+	Main.Size = UDim2.new(0, 248, 0, 311)
+
+	nameofgui.Name = "nameofgui"
+	nameofgui.Parent = Main
+	nameofgui.BackgroundColor3 = Color3.new(1, 1, 1)
+	nameofgui.BackgroundTransparency = 1
+	nameofgui.ClipsDescendants = true
+	nameofgui.Size = UDim2.new(0, 248, 0, 19)
+	nameofgui.Font = Enum.Font.GothamBold
+	nameofgui.Text = "Statuyev"
+	nameofgui.TextColor3 = Color3.new(1, 1, 1)
+	nameofgui.TextSize = 16
+	nameofgui.TextXAlignment = Enum.TextXAlignment.Left
+
+	border.Name = "border"
+	border.Parent = Main
+	border.BackgroundColor3 = Color3.new(1, 1, 1)
+	border.ClipsDescendants = true
+	border.Position = UDim2.new(-0.00131386518, 0, 0.0696422011, 0)
+	border.Size = UDim2.new(0, 248, 0, 1)
+
+	invis.Name = "invis"
+	invis.Parent = Main
+	invis.BackgroundColor3 = Color3.new(1, 0.541176, 0.164706)
+	invis.ClipsDescendants = true
+	invis.Position = UDim2.new(0, 0, 0.115512639, 0)
+	invis.Size = UDim2.new(0, 248, 0, 27)
+	invis.Font = Enum.Font.SourceSansItalic
+	invis.Text = "FE Invisible Fling (R6 & R15)"
+	invis.TextColor3 = Color3.new(1, 1, 1)
+	invis.TextSize = 16
+	invis.MouseButton1Click:connect(function()
+
+
+
+		spawn(function()
+			local message = Instance.new("Message",workspace)
+			message.Text = "Loaded press z to execute inviseble , press x to respawn)"
+			wait(5)
+			message:Destroy()
+		end)
+
+
+
+
+
+
+
+
+		local mouse = game.Players.LocalPlayer:GetMouse()
+
+		local groot = nil
+
+		mouse.KeyDown:connect(function(k)
+
+			if k == "z" then
+
+
+
+				spawn(function()
+					local message = Instance.new("Message",workspace)
+					message.Text = "Fe Invisible Fling By Mikhail Statuyev#5496 Loaded (wait 11 seconds to load)"
+					wait(11)
+					message:Destroy()
+				end)
+
+
+				local ch = game.Players.LocalPlayer.Character
+				local prt=Instance.new("Model", workspace)
+				local z1 =  Instance.new("Part", prt)
+				z1.Name="Torso"
+				z1.CanCollide = false
+				z1.Anchored = true
+				local z2  =Instance.new("Part", prt)
+				z2.Name="Head"
+				z2.Anchored = true
+				z2.CanCollide = false
+				local z3 =Instance.new("Humanoid", prt)
+				z3.Name="Humanoid"
+				z1.Position = Vector3.new(0,9999,0)
+				z2.Position = Vector3.new(0,9991,0)
+				game.Players.LocalPlayer.Character=prt
+				wait(5)
+				game.Players.LocalPlayer.Character=ch
+				wait(6)
+
+
+				local plr = game.Players.LocalPlayer
+				mouse = plr:GetMouse()
+
+				local Hum = Instance.new("Humanoid")
+				Hum.Parent = game.Players.LocalPlayer.Character
+
+
+				local root =  game.Players.LocalPlayer.Character.HumanoidRootPart
+
+
+				for i,v in pairs(plr.Character:GetChildren()) do
+
+					if v ~= root and  v.Name ~= "Humanoid" then
+
+						v:Destroy()
+
+					end
+
+
+				end
+
+				workspace.CurrentCamera.CameraSubject = root
+
+				local se = Instance.new("SelectionBox",root)
+				se.Adornee = root
+
+
+				game:GetService('RunService').Stepped:connect(function()
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
+				end)
+				game:GetService('RunService').RenderStepped:connect(function()
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
+				end)
+
+
+				power = 999999 -- change this to make it more or less powerful
+
+				power = power*10
+
+				---
+				wait(.1)
+				local bambam = Instance.new("BodyThrust")
+				bambam.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+				bambam.Force = Vector3.new(power,0,power)
+				bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position 
+
+
+
+
+
+				local plr = game.Players.LocalPlayer
+				local torso = root
+				local flying = true
+				local deb = true
+				local ctrl = {f = 0, b = 0, l = 0, r = 0}
+				local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+				local maxspeed = 120
+				local speed = 15
+
+
+				---local bambam = Instance.new("BodyThrust")
+				---bambam.Parent = torso
+				--bambam.Force = Vector3.new(9999999,0,9999999)
+				--bambam.Location = torso.Position
+
+
+				---
+				groot = root
+
+				function Fly()
+					local bg = Instance.new("BodyGyro", torso)
+					bg.P = 9e4
+					bg.maxTorque = Vector3.new(0, 0, 0)
+					bg.cframe = torso.CFrame
+					local bv = Instance.new("BodyVelocity", torso)
+					bv.velocity = Vector3.new(0,0,0)
+					bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+					repeat wait()
+
+						if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+							speed = speed+.2
+							if speed > maxspeed then
+								speed = maxspeed
+							end
+						elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+							speed = speed-1
+							if speed < 0 then
+								speed = 0
+							end
+						end
+						if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+							bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+							lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+						elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+							bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+						else
+							bv.velocity = Vector3.new(0,0.1,0)
+						end
+
+					until not flying
+					ctrl = {f = 0, b = 0, l = 0, r = 0}
+					lastctrl = {f = 0, b = 0, l = 0, r = 0}
+					speed = 0
+					bg:Destroy()
+					bv:Destroy()
+
+				end
+				mouse.KeyDown:connect(function(key)
+					if key:lower() == "e" then
+						if flying then flying = false
+						else
+							flying = true
+							Fly()
+						end
+					elseif key:lower() == "w" then
+						ctrl.f = 1
+					elseif key:lower() == "s" then
+						ctrl.b = -1
+					elseif key:lower() == "a" then
+						ctrl.l = -1
+					elseif key:lower() == "d" then
+						ctrl.r = 1
+					end
+				end)
+				mouse.KeyUp:connect(function(key)
+					if key:lower() == "w" then
+						ctrl.f = 0
+					elseif key:lower() == "s" then
+						ctrl.b = 0
+					elseif key:lower() == "a" then
+						ctrl.l = 0
+					elseif key:lower() == "d" then
+						ctrl.r = 0
+					elseif key:lower() == "r" then
+
+					end
+				end)
+				Fly()
+
+
+
+			elseif k == "x" then
+
+
+				spawn(function()
+					local message = Instance.new("Message",workspace)
+					message.Text = "Respawning dont spam"
+					wait(1)
+					message:Destroy()
+				end)
+
+				local saved = groot.Position
+
+				local ch = game.Players.LocalPlayer.Character
+				local prt=Instance.new("Model", workspace)
+				local z1 =  Instance.new("Part", prt)
+				z1.Name="Torso"
+				z1.CanCollide = false
+				z1.Anchored = true
+				local z2  =Instance.new("Part", prt)
+				z2.Name="Head"
+				z2.Anchored = true
+				z2.CanCollide = false
+				local z3 =Instance.new("Humanoid", prt)
+				z3.Name="Humanoid"
+				z1.Position = Vector3.new(0,9999,0)
+				z2.Position = Vector3.new(0,9991,0)
+				game.Players.LocalPlayer.Character=prt
+				wait(5)
+				game.Players.LocalPlayer.Character=ch
+				local poop = nil
+				repeat wait() poop = game.Players.LocalPlayer.Character:FindFirstChild("Head") until poop ~= nil
+				wait(1)
+				game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(saved)
+
+			end
+
+
+		end)
+	end)
+
+	pp.Name = "pp"
+	pp.Parent = Main
+	pp.BackgroundColor3 = Color3.new(1, 0.541176, 0.164706)
+	pp.ClipsDescendants = true
+	pp.Position = UDim2.new(0.00403225794, 0, 0.256927162, 0)
+	pp.Size = UDim2.new(0, 248, 0, 27)
+	pp.Font = Enum.Font.SourceSansItalic
+	pp.Text = "FE Penis (R6)"
+	pp.TextColor3 = Color3.new(1, 1, 1)
+	pp.TextSize = 16
+	pp.MouseButton1Click:connect(function()
+
+
+
+
+
+
+
+
+		spawn(function()
+			local message = Instance.new("Message",workspace)
+			message.Text = "Fe penisito loaded"
+			wait(11)
+			message:Destroy()
+		end)
+
+		local name = "Torso"
+		if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").RigType == Enum.HumanoidRigType.R15 then
+			name = "UpperTorso"
+		end
+
+		local ch = game.Players.LocalPlayer.Character
+		local prt=Instance.new("Model", workspace)
+		local z1 =  Instance.new("Part", prt)
+		z1.Name="Torso"
+		z1.CanCollide = false
+		z1.Anchored = true
+		local z2  =Instance.new("Part", prt)
+		z2.Name="Head"
+		z2.Anchored = true
+		z2.CanCollide = false
+		local z3 =Instance.new("Humanoid", prt)
+		z3.Name="Humanoid"
+		z1.Position = Vector3.new(0,9999,0)
+		z2.Position = Vector3.new(0,9991,0)
+		game.Players.LocalPlayer.Character=prt
+		wait(5)
+		game.Players.LocalPlayer.Character=ch
+		wait(6)
+		game:GetService('RunService').Stepped:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = true
+		end)
+		game:GetService('RunService').RenderStepped:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = true
+		end)
+		plr = game.Players.LocalPlayer
+		mouse = plr:GetMouse()
+
+		game.Players.LocalPlayer.Character.HumanoidRootPart:Destroy() 
+
+		local Hum = Instance.new("Humanoid")
+
+
+
+		Hum.Parent = game.Players.LocalPlayer.Character
+		game.Players.LocalPlayer.Character.Humanoid.Parent = game.Lighting
+		--game.Players.LocalPlayer.Character:FindFirstChild("Torso").Name = "Head"
+		--game.Players.LocalPlayer.Character:FindFirstChild("Head"):Destroy()
+		--game.Players.LocalPlayer.Character:FindFirstChild(name):Destroy()
+		--game.Players.LocalPlayer.Character.HumanoidRootPart.Name = "GaiPArt"
+		local root =game.Players.LocalPlayer.Character["Right Arm"] -- game.Players.LocalPlayer.Character["Left Leg"]
+		root.Name = "HumanoidRootPart"
+
+		Hum.HipHeight = 5
+
+
+		workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.HumanoidRootPart
+
+
+
+
+		for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+
+			if v.Name ~=root.Name and v.Name ~="Humanoid" and v.Name ~= "Left Arm" and v.Name ~= "Left Leg" and v.Name ~= "Right Leg" then
+
+				v:Destroy()
+
+			elseif v.Name == "Left Arm" then
+
+				local bp = Instance.new("BodyPosition",v)
+				bp.MaxForce = Vector3.new(99999,99999,99999)
+				local bg = Instance.new("BodyGyro",v)
+				bg.MaxTorque = Vector3.new(9999999,9999999,999999)
+
+				spawn(function()
+					bp.D = 300
+					while true do
+						bp.Position = root.Position+Vector3.new(0,1.8+1.8+1.8-0.3,0)
+						wait()
+					end
+
+				end)
+
+			elseif v.Name == "Left Leg" then
+
+				local bp = Instance.new("BodyPosition",v)
+				bp.MaxForce = Vector3.new(99999,99999,99999)
+				local bg = Instance.new("BodyGyro",v)
+				bg.MaxTorque = Vector3.new(9999999,9999999,999999)
+
+				spawn(function()
+					bp.D = 300
+					while true do
+						bp.Position = root.Position+Vector3.new(0,1.8-0.3,0)
+						wait()
+					end
+
+				end)
+
+			elseif v.Name == "Right Leg" then
+
+				local bp = Instance.new("BodyPosition",v)
+				bp.MaxForce = Vector3.new(99999,99999,99999)
+				local bg = Instance.new("BodyGyro",v)
+				bg.MaxTorque = Vector3.new(9999999,9999999,999999)
+				spawn(function()
+					bp.D = 300	
+					while true do
+						bp.Position = root.Position+Vector3.new(0,1.8+1.8-0.3,0)
+						wait()
+					end
+
+				end)
+			elseif v.Name == root.Name then
+
+				local bg = Instance.new("BodyGyro",v)
+				bg.MaxTorque = Vector3.new(9999999,9999999,999999)
+				bg.CFrame = CFrame.Angles(math.rad(0),math.rad(0),math.rad(90))
+
+			end
+
+
+		end
+
+		--local se = Instance.new("SelectionBox",root)
+		--se.Adornee = root
+
+
+		power = 999999 -- change this to make it more or less powerful
+
+		power = power*10
+
+		---
+		wait(.1)
+		--local bambam = Instance.new("BodyThrust")
+		--bambam.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+		--bambam.Force = Vector3.new(power,0,power)
+		--bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position 
+
+
+
+
+		local mouse = game.Players.LocalPlayer:GetMouse()
+
+
+		local plr = game.Players.LocalPlayer
+		local torso = root
+		local flying = true
+		local deb = true
+		local ctrl = {f = 0, b = 0, l = 0, r = 0}
+		local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+		local maxspeed = 120
+		local speed = 15
+
+
+		---local bambam = Instance.new("BodyThrust")
+		---bambam.Parent = torso
+		--bambam.Force = Vector3.new(9999999,0,9999999)
+		--bambam.Location = torso.Position
+
+
+		---
+
+
+		function Fly()
+			local bg = Instance.new("BodyGyro", torso)
+			bg.P = 9e4
+			bg.maxTorque = Vector3.new(0, 0, 0)
+			bg.cframe = torso.CFrame
+			local bv = Instance.new("BodyVelocity", torso)
+			bv.velocity = Vector3.new(0,0,0)
+			bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+			repeat wait()
+
+				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+					speed = speed+.2
+					if speed > maxspeed then
+						speed = maxspeed
+					end
+				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+					speed = speed-1
+					if speed < 0 then
+						speed = 0
+					end
+				end
+				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+				else
+					bv.velocity = Vector3.new(0,0,0)
+				end
+
+			until not flying
+			ctrl = {f = 0, b = 0, l = 0, r = 0}
+			lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			speed = 0
+			bg:Destroy()
+			bv:Destroy()
+
+		end
+		mouse.KeyDown:connect(function(key)
+			if key:lower() == "e" then
+				if flying then flying = false
+				else
+					flying = true
+					Fly()
+				end
+			elseif key:lower() == "w" then
+				ctrl.f = 1
+			elseif key:lower() == "s" then
+				ctrl.b = -1
+			elseif key:lower() == "a" then
+				ctrl.l = -1
+			elseif key:lower() == "d" then
+				ctrl.r = 1
+			end
+		end)
+		mouse.KeyUp:connect(function(key)
+			if key:lower() == "w" then
+				ctrl.f = 0
+			elseif key:lower() == "s" then
+				ctrl.b = 0
+			elseif key:lower() == "a" then
+				ctrl.l = 0
+			elseif key:lower() == "d" then
+				ctrl.r = 0
+			elseif key:lower() == "r" then
+
+			end
+		end)
+		Fly()
+	end)
+
+	memedog.Name = "memedog"
+	memedog.Parent = Main
+	memedog.BackgroundColor3 = Color3.new(1, 1, 1)
+	memedog.BackgroundTransparency = 1
+	memedog.ClipsDescendants = true
+	memedog.Position = UDim2.new(0.0967741907, 0, 0.745117068, 0)
+	memedog.Size = UDim2.new(0, 200, 0, 23)
+	memedog.Font = Enum.Font.SourceSansLight
+	memedog.Text = "Mikhail Statuyev#5496 for GUI"
+	memedog.TextColor3 = Color3.new(0, 1, 0)
+	memedog.TextSize = 16
+
+	die.Name = "die"
+	die.Parent = Main
+	die.BackgroundColor3 = Color3.new(1, 1, 1)
+	die.BackgroundTransparency = 1
+	die.ClipsDescendants = true
+	die.Position = UDim2.new(0.0120967738, 0, 0.66750288, 0)
+	die.Size = UDim2.new(0, 246, 0, 23)
+	die.Font = Enum.Font.SourceSansLight
+	die.Text = "Mikhail Statuyev#5496 for scripts"
+	die.TextColor3 = Color3.new(0, 1, 1)
+	die.TextSize = 16
+
+	worm.Name = "worm"
+	worm.Parent = Main
+	worm.BackgroundColor3 = Color3.new(1, 0.541176, 0.164706)
+	worm.ClipsDescendants = true
+	worm.Position = UDim2.new(-0.00403225794, 0, 0.405297279, 0)
+	worm.Size = UDim2.new(0, 248, 0, 27)
+	worm.Font = Enum.Font.SourceSansItalic
+	worm.Text = "FE Wormus (R6)"
+	worm.TextColor3 = Color3.new(1, 1, 1)
+	worm.TextSize = 16
+	worm.MouseButton1Click:connect(function()
+
+
+
+		--Wormus
+
+		--If ur legs gonna lose network owner they not going  to lose them u will pick them up when ur network owner gonna comeback
+
+		--Found some replication bugs long time ago 
+
+		--ik its not clean code
+
+		local name = "Torso"
+		local ch = game.Players.LocalPlayer.Character
+		local prt=Instance.new("Model", workspace)
+		local z1 =  Instance.new("Part", prt)
+		z1.Name="Torso"
+		z1.CanCollide = false
+		z1.Anchored = true
+		local z2  =Instance.new("Part", prt)
+		z2.Name="Head"
+		z2.Anchored = true
+		z2.CanCollide = false
+		local z3 =Instance.new("Humanoid", prt)
+		z3.Name="Humanoid"
+		z1.Position = Vector3.new(0,9999,0)
+		z2.Position = Vector3.new(0,9991,0)
+		game.Players.LocalPlayer.Character=prt
+		wait(5)
+		game.Players.LocalPlayer.Character=ch
+		wait(6)
+
+
+		--game:GetService('RunService').Stepped:connect(function()
+		--game.Players.LocalPlayer.Character.Head.CanCollide = false
+		--end)
+		local humano = game.Players.LocalPlayer.Character.Humanoid:Clone()
+		wait()
+		game.Players.LocalPlayer.Character[name]:Destroy()
+		game.Players.LocalPlayer.Character.HumanoidRootPart:Destroy()
+
+
+
+		local torso = game.Players.LocalPlayer.Character.Head
+		game.Players.LocalPlayer.Character.Humanoid.Parent = game.Lighting
+
+
+		humano.Parent = game.Players.LocalPlayer.Character
+
+		local humanoid = humano--Instance.new("Humanoid",game.Players.LocalPlayer.Character)
+
+		humanoid.HipHeight = 4
+
+		humanoid.WalkSpeed = 50
+
+		torso.Name = "HumanoidRootPart"
+
+		limbs = {
+			game.Players.LocalPlayer.Character["Left Arm"],
+			game.Players.LocalPlayer.Character["Right Arm"],
+			game.Players.LocalPlayer.Character["Left Leg"],
+			game.Players.LocalPlayer.Character["Right Leg"]
+		}
+		for i,v in pairs(limbs)do
+
+			local bodypos = Instance.new("BodyPosition",v)
+
+			bodypos.MaxForce = Vector3.new(999999,999999,999999)
+
+			bodypos.D = 400
+
+			local bodyg = Instance.new("BodyGyro",v)
+
+			bodyg.MaxTorque =Vector3.new(99999999,99999999,999999)
+
+
+			spawn(function()
+				while true do
+					bodypos.Position = torso.Position-Vector3.new(0,i*1.5,0)
+					wait(0.1)
+				end
+			end)
+		end
+	end)
+
+	cycl.Name = "cycl"
+	cycl.Parent = Main
+	cycl.BackgroundColor3 = Color3.new(1, 0.541176, 0.164706)
+	cycl.ClipsDescendants = true
+	cycl.Position = UDim2.new(0, 0, 0.551240921, 0)
+	cycl.Size = UDim2.new(0, 248, 0, 27)
+	cycl.Font = Enum.Font.SourceSansItalic
+	cycl.Text = "Cyclone Admin"
+	cycl.TextColor3 = Color3.new(1, 1, 1)
+	cycl.TextSize = 16
+	cycl.MouseButton1Click:connect(function()
+
+		-- Version: 0.2a
+		-- Settings:
+		local PREFIX = ";"
+		-- Variables:
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		local TweenService = game:GetService("TweenService")
+		local RunService = game:GetService("RunService")
+		local mouse = LocalPlayer:GetMouse()
+		local ContentProvider = game:GetService("ContentProvider")
+		local Players = setmetatable(game:GetService("Players"):GetPlayers(), {
+			__metatable = "Metatable is locked"; -- Theres a reason for this.
+			__index = function(self, k)
+				if k:lower() == "all" then
+					return game:GetService("Players"):GetPlayers()
+				elseif k:lower() == "others" then
+					local plrReturn = {}
+					for _, plr in pairs(game:GetService("Players"):GetPlayers()) do
+						if plr ~= LocalPlayer then
+							table.insert(plrReturn, plr)
+						end
+					end
+					return plrReturn
+				elseif k:lower() == "me" then
+					return {LocalPlayer}
+				elseif k:lower() == "random" then
+					return game:GetService("Players"):GetPlayers()[math.random(1, #game:GetService("Players"):GetPlayers())]
+				else	
+					for _, plr in pairs(game:GetService("Players"):GetPlayers()) do
+						if string.find(plr.Name:lower(), k:lower()) then
+							return {plr}
+						end
+					end
+				end
+			end
+		})
+		-- Instances:
+		local CycloneGui = Instance.new("ScreenGui", game.CoreGui)
+		local mainFrame = Instance.new("ImageLabel", CycloneGui)
+		local titleLabel = Instance.new("TextLabel", mainFrame)
+		local bottomFrame = Instance.new("Frame", mainFrame)
+		local searchBox = Instance.new("TextBox", bottomFrame)
+		local cmdList = Instance.new("ScrollingFrame", bottomFrame)
+		local listLayout = Instance.new("UIListLayout", cmdList)
+		local topBlinker = Instance.new("Frame", CycloneGui)
+		local bottomBlinker = Instance.new("Frame", CycloneGui)
+		local introLabel = Instance.new("TextLabel")
+		local introFrame = Instance.new("ImageLabel", introLabel)
+		local introShadow = Instance.new("ImageLabel", introLabel)
+		local notifBar = Instance.new("ImageLabel")
+		local notifText = Instance.new("TextLabel", notifBar)
+		local barlabel = Instance.new("TextButton")
+		--Properties:
+		CycloneGui.Name = "CycloneGui"
+
+		mainFrame.Name = "mainFrame"
+		mainFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+		mainFrame.BackgroundTransparency = 1
+		mainFrame.Position = UDim2.new(0.82, 0, 1, 0)
+		mainFrame.Size = UDim2.new(0.16, 0, 0.4, 0)
+		mainFrame.ZIndex = 0
+		mainFrame.Image = "rbxassetid://2851927369"
+		mainFrame.ImageColor3 = Color3.new(0, 0.0196078, 0.0470588)
+		mainFrame.ScaleType = Enum.ScaleType.Slice
+		mainFrame.SliceCenter = Rect.new(10, 10, 10, 10)
+
+		titleLabel.Name = "titleLabel"
+		titleLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+		titleLabel.BackgroundTransparency = 1
+		titleLabel.Size = UDim2.new(1, 0, 0.125409842, 0)
+		titleLabel.Font = Enum.Font.GothamBold
+		titleLabel.Text = "Cyclone"
+		titleLabel.TextColor3 = Color3.new(0.835294, 0.909804, 1)
+		titleLabel.TextSize = 14
+
+		bottomFrame.Name = "bottomFrame"
+		bottomFrame.BackgroundColor3 = Color3.new(0, 0.0117647, 0.0352941)
+		bottomFrame.BorderSizePixel = 0
+		bottomFrame.Position = UDim2.new(0, 0, 0.125409856, 0)
+		bottomFrame.Size = UDim2.new(1, 0, 0.874590158, 0)
+
+		searchBox.Name = "searchBox"
+		searchBox.BackgroundColor3 = Color3.new(0, 0.0196078, 0.0666667)
+		searchBox.BorderSizePixel = 0
+		searchBox.Size = UDim2.new(1, 0, 0.100000001, 0)
+		searchBox.ZIndex = 2
+		searchBox.Font = Enum.Font.GothamBold
+		searchBox.PlaceholderColor3 = Color3.new(0.113725, 0.188235, 0.34902)
+		searchBox.PlaceholderText = "Search"
+		searchBox.Text = ""
+		searchBox.TextColor3 = Color3.new(0.168627, 0.278431, 0.517647)
+		searchBox.TextSize = 10
+
+		cmdList.Name = "cmdList"
+		cmdList.BackgroundColor3 = Color3.new(0, 0.0156863, 0.0588235)
+		cmdList.BorderSizePixel = 0
+		cmdList.Position = UDim2.new(0, 0, 0.0999999866, 0)
+		cmdList.Size = UDim2.new(1, 0, 0.900000036, 0)
+		cmdList.ZIndex = 2
+		cmdList.CanvasSize = UDim2.new(0, 0, 10, 0)
+		cmdList.ScrollBarThickness = 0
+
+		listLayout.Name = "listLayout"
+
+		topBlinker.Name = "topBlinker"
+		topBlinker.BackgroundColor3 = Color3.new(0, 0, 0)
+		topBlinker.BorderSizePixel = 0
+		topBlinker.Size = UDim2.new(1, 0, 0, 0)
+		topBlinker.ZIndex = 4
+
+		bottomBlinker.Name = "bottomBlinker"
+		bottomBlinker.BackgroundColor3 = Color3.new(0, 0, 0)
+		bottomBlinker.BorderSizePixel = 0
+		bottomBlinker.Position = UDim2.new(0, 0, 1, 0)
+		bottomBlinker.Size = UDim2.new(1, 0, 0, 0)
+		bottomBlinker.ZIndex = 4
+
+		introLabel.Name = "introLabel"
+		introLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+		introLabel.BackgroundTransparency = 1
+		introLabel.BorderSizePixel = 0
+		introLabel.Size = UDim2.new(1, 0, 1, 0)
+		introLabel.ZIndex = 2
+		introLabel.Font = Enum.Font.GothamBlack
+		introLabel.Text = "CYCLONE"
+		introLabel.TextColor3 = Color3.new(0.835294, 0.909804, 1)
+		introLabel.TextSize = 100
+		introLabel.TextStrokeColor3 = Color3.new(0.258824, 0.282353, 0.309804)
+		introLabel.TextStrokeTransparency = 0
+
+		introFrame.Name = "introFrame"
+		introFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+		introFrame.BackgroundTransparency = 1
+		introFrame.Position = UDim2.new(0.275894552, 0, 0.362831891, 0)
+		introFrame.Size = UDim2.new(0.447269291, 0, 0.267256588, 0)
+		introFrame.Image = "rbxassetid://2851920938"
+		introFrame.ImageColor3 = Color3.new(0, 0.0196078, 0.0470588)
+		introFrame.ScaleType = Enum.ScaleType.Slice
+		introFrame.SliceCenter = Rect.new(25, 25, 25, 25)
+
+		introShadow.Name = "introShadow"
+		introShadow.BackgroundColor3 = Color3.new(1, 1, 1)
+		introShadow.BackgroundTransparency = 1
+		introShadow.Position = UDim2.new(0.275894552, 0, 0.362831891, 0)
+		introShadow.Size = UDim2.new(0.447269291, 0, 0.287332058, 0)
+		introShadow.ZIndex = 0
+		introShadow.Image = "rbxassetid://2851920938"
+		introShadow.ImageColor3 = Color3.new(0, 0.0235294, 0.0705882)
+		introShadow.ScaleType = Enum.ScaleType.Slice
+		introShadow.SliceCenter = Rect.new(25, 25, 25, 25)
+
+		notifBar.Name = "notifBar"
+		notifBar.BackgroundColor3 = Color3.new(1, 1, 1)
+		notifBar.BackgroundTransparency = 1
+		notifBar.BorderSizePixel = 0
+		notifBar.Position = UDim2.new(0.55, 0, 0.97, 0)
+		notifBar.Size = UDim2.new(0.25, 0, 0.06, 0)
+		notifBar.ZIndex = 0
+		notifBar.Image = "rbxassetid://2851920938"
+		notifBar.ImageColor3 = Color3.new(0, 0.0196078, 0.0470588)
+		notifBar.ImageTransparency = 1
+		notifBar.ScaleType = Enum.ScaleType.Slice
+		notifBar.SliceCenter = Rect.new(25, 25, 25, 25)
+
+		notifText.Name = "notifText"
+		notifText.BackgroundColor3 = Color3.new(1, 1, 1)
+		notifText.BackgroundTransparency = 1
+		notifText.BorderSizePixel = 0
+		notifText.Size = UDim2.new(1, 0, 1, 0)
+		notifText.Font = Enum.Font.GothamBold
+		notifText.Text = "Error message"
+		notifText.TextColor3 = Color3.new(0.835294, 0.909804, 1)
+		notifText.TextSize = 10
+		notifText.TextStrokeTransparency = 1
+		notifText.TextTransparency = 1
+		notifText.TextWrapped = true
+
+		barlabel.Name = "barlabel"
+		barlabel.BackgroundColor3 = Color3.fromRGB(0, 3, 16)
+		barlabel.BackgroundTransparency = 1
+		barlabel.BorderSizePixel = 0
+		barlabel.Size = UDim2.new(1, 0, 0.01, 0)
+		barlabel.ZIndex = 3
+		barlabel.Font = Enum.Font.GothamBold
+		barlabel.TextColor3 = Color3.new(0.835294, 0.909804, 1)
+		barlabel.TextSize = 9
+		barlabel.TextTransparency = 1
+		-- Script:
+		local localcc = Instance.new("ColorCorrectionEffect", game:GetService("Lighting"))
+		local localblur = Instance.new("BlurEffect", game:GetService("Lighting"))
+		localblur.Size = 0
+		local tweenInfo1 = TweenInfo.new(2, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+		local tweenInfo2 = TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+		local tweenInfo3 = TweenInfo.new(2, Enum.EasingStyle.Back, Enum.EasingDirection.In)
+		local cmdsHelp = {}
+		local cmdsHint = {}
+		local notifSound = Instance.new("Sound", CycloneGui)
+		notifSound.SoundId = "rbxassetid://180877191"
+		notifSound.Volume = 1
+		local Events = setmetatable({}, { -- These are mostly for debugging
+			__metatable = "Metatable is locked";
+			__newindex = function(self, i, k)
+				warn("Event " .. k .. " created")
+			end;
+			__index = function(self, k)
+				warn("Tried to access unknown event " .. k)
+			end
+		}) -- Custom RBXScriptSignal with OOP
+		local stringSplit = function(str, pattern)
+			local returnTab = {}
+			local mainInd = 0
+			for i = 1, #str do
+				if string.sub(str, i, i + #pattern - 1) == pattern or i + #pattern == #str then
+					local splitAdder = -1
+					if i + #pattern == #str then
+						splitAdder = 1
+					end
+					table.insert(returnTab, string.sub(str, mainInd, i + splitAdder))
+					mainInd = i + #pattern
+				end
+			end
+			return returnTab
+		end
+		CustomEnum = { -- Custom enumeration
+			BlinkingDirection = {
+				Close = 1;
+				Open = 2;
+			};
+			NotifcationType = {
+				Normal = 3;
+				Important = 4;
+				Random = 5;
+				Error = 6;
+			}
+		};
+		local function chatPlr(message) -- Makes you chat
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(tostring(message), "All")
+		end
+		local function createNotif(message, notifType) -- Create notifications
+			local CnotifBar = notifBar:Clone()
+			local notifCol = Color3.fromRGB(213, 232, 255)
+			if notifType == 4 then
+				notifCol = Color3.fromRGB(141, 255, 128)
+			elseif notifType == 5 then
+				notifCol = Color3.fromRGB(249, 255, 126)
+			elseif notifType == 6 then
+				notifCol = Color3.fromRGB(255, 49, 80)
+			end
+			CnotifBar.Parent = CycloneGui
+			local notifBars = {}
+			for _, v in pairs(CycloneGui:GetChildren()) do
+				if v.Name == "notifBar" then
+					table.insert(notifBars, v)
+				end
+			end
+			local notifBarPos = Instance.new("NumberValue", CnotifBar)
+			notifBarPos.Name = "notifBarPos"
+			notifBarPos.Value = CnotifBar.Position.Y.Scale
+			CnotifBar.notifText.Text = message
+			CnotifBar.notifText.TextColor3 = notifCol
+			notifSound:Play()
+			TweenService:Create(CnotifBar, tweenInfo2, {ImageTransparency = 0}):Play()
+			TweenService:Create(CnotifBar.notifText, tweenInfo2, {TextTransparency = 0}):Play()
+			for index, notifB in pairs(notifBars) do
+				TweenService:Create(notifB, tweenInfo2, {Position = UDim2.new(0.55, 0, notifB:FindFirstChild("notifBarPos").Value - 0.07, 0)}):Play()
+				notifB:FindFirstChild("notifBarPos").Value = notifB:FindFirstChild("notifBarPos").Value - 0.07
+			end
+			wait(2)
+			TweenService:Create(CnotifBar, tweenInfo2, {ImageTransparency = 1}):Play()
+			TweenService:Create(CnotifBar.notifText, tweenInfo2, {TextTransparency = 1}):Play()
+		end
+		local Cyclone = {
+			-- Functions:
+			updateSearchBar = function(self)
+				for _, v in pairs(cmdList:GetChildren()) do
+					if not v:IsA("UIListLayout") then
+						v:Destroy()
+					end
+				end
+				for index, cmdHelper in pairs(cmdsHelp) do
+					if string.find(cmdHelper, searchBox.Text) then
+						local Cbarlabel = barlabel:Clone()
+						Cbarlabel.MouseButton1Down:Connect(function()
+							createNotif(cmdsHint[cmdHelper], CustomEnum.NotifcationType.Random)
+						end)
+						if index % 2 == 1 then
+							Cbarlabel.BackgroundColor3 = Color3.fromRGB(0, 5, 22)
+						end
+						Cbarlabel.Text = PREFIX .. cmdHelper
+						Cbarlabel.Parent = cmdList
+						TweenService:Create(Cbarlabel, tweenInfo2, {TextTransparency = 0, BackgroundTransparency = 0}):Play()
+					end
+				end
+			end;
+			-- Methods:
+			newConnection = function(self, eventName)
+				assert(Events[eventName] == nil, "Event already exists")
+				local newEvent = Instance.new("BindableEvent")
+				Events[eventName] = newEvent
+				return newEvent
+			end;
+			setBlinker = function(self, blinkType, speed, coverup)
+				local newInfo = TweenInfo.new(speed, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+				if blinkType == 1 then
+					TweenService:Create(topBlinker, newInfo, {Size = UDim2.new(1, 0, coverup * 0.5 / 1, 0)}):Play()
+					TweenService:Create(bottomBlinker, newInfo, {Size = UDim2.new(1, 0, coverup * 0.5 / 1, 0); Position = UDim2.new(0, 0, 1 - (coverup * 0.5 / 1), 0)}):Play()
+				elseif blinkType == 2 then
+					TweenService:Create(topBlinker, newInfo, {Size = UDim2.new(1, 0, 0, 0)}):Play()
+					TweenService:Create(bottomBlinker, newInfo, {Size = UDim2.new(1, 0, 0, 0); Position = UDim2.new(0, 0, 1, 0)}):Play()
+				end
+			end;
+			setBrightness = function(self, brightness, speed)
+				local newInfo = TweenInfo.new(speed, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+				TweenService:Create(localcc, newInfo, {Brightness = brightness}):Play()
+			end;
+			setBlur = function(self, size, speed)
+				local newInfo = TweenInfo.new(speed, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+				TweenService:Create(localblur, newInfo, {Size = size}):Play()
+			end;
+			createSound = function(self, id, volume)
+				local newSound = Instance.new("Sound", CycloneGui)
+				newSound.SoundId = id
+				newSound.Volume = volume
+				return newSound
+			end;
+			createCommand = function(self, cmdName, cmdHelp, hint, func)
+				table.insert(cmdsHelp, cmdHelp)
+				cmdsHint[cmdHelp] = hint
+				LocalPlayer.Chatted:Connect(function(msg)
+					if PREFIX .. cmdName == string.sub(msg, 1, #PREFIX + #cmdName) then
+						assert(type(func) == "function", "bad argument #3 to \"createCommand\" (function expected, got " .. type(func) .. ")")
+						local params = stringSplit(msg, " ")
+						table.remove(params, 1)
+						params = stringSplit(table.concat(params), ",")
+						func(params)
+					end
+				end)
+			end;
+		}
+		-- Command variables:
+		local lagserver = false
+		local clicktp = nil
+		local oofspamming = false
+		-- Command creation:
+		Cyclone:createCommand("rejoin", "rejoin", "Makes you rejoin the game", function(cmdParameters)
+			game:GetService("TeleportService"):Teleport(game.GameId, LocalPlayer)
+		end)
+		Cyclone:createCommand("respawn", "respawn", "Respawn your character", function(cmdParameters)
+			LocalPlayer.Character:ClearAllChildren()
+			local char = Instance.new("Model", workspace)
+			Instance.new("Humanoid", char)
+			LocalPlayer.Character = char
+		end)
+		Cyclone:createCommand("kill", "kill [plr]", "Kills the target player", function(cmdParameters)
+			local torsoname = "Torso"
+			if LocalPlayer.Character:FindFirstChild("Humanoid").RigType == Enum.HumanoidRigType.R15 then
+				torsoname = "UpperTorso"
+			end
+			if Players[cmdParameters[1]][1].Character ~= nil then
+				local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+				LocalPlayer.Character:FindFirstChild(torsoname).Anchored = true
+				local tool = Instance.new("Tool", LocalPlayer.Backpack)
+				local hat = LocalPlayer.Character:FindFirstChildOfClass("Accessory")
+				local hathandle = hat.Handle
+				hathandle.Parent = tool
+				hathandle.Massless = true
+				tool.GripPos = Vector3.new(0, 9e99, 0)
+				tool.Parent = LocalPlayer.Character
+				repeat wait() until LocalPlayer.Character:FindFirstChildOfClass("Tool") ~= nil
+				tool.Grip = CFrame.new(Vector3.new(0, 0, 0))
+				LocalPlayer.Character:FindFirstChild(torsoname).Anchored = false
+				repeat
+					LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = Players[cmdParameters[1]][1].Character:FindFirstChild("HumanoidRootPart").CFrame
+					wait()
+				until Players[cmdParameters[1]][1].Character == nil or Players[cmdParameters[1]][1].Character:FindFirstChild("Humanoid").Health <= 0 or LocalPlayer.Character == nil or LocalPlayer.Character:FindFirstChild("Humanoid").Health <= 0 or (Players[cmdParameters[1]][1].Character:FindFirstChild("HumanoidRootPart").Velocity.Magnitude - Players[cmdParameters[1]][1].Character:FindFirstChild("Humanoid").WalkSpeed) > (Players[cmdParameters[1]][1].Character:FindFirstChild("Humanoid").WalkSpeed + 20)
+				LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+				hathandle.Parent = hat
+				hathandle.Massless = false
+				tool:Destroy()
+				LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
+			end
+		end)
+		Cyclone:createCommand("dupetools", "dupetools [amount]", "Duplicates your tools, must have startertools", function(cmdParameters)
+			createNotif("Now duplicating " .. cmdParameters[1] .. " tools", CustomEnum.NotifcationType.Normal)
+			LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+			local currentamount = #LocalPlayer.Backpack:GetChildren()
+			LocalPlayer.Character.Archivable = true
+			local tempchar = LocalPlayer.Character:Clone()
+			local lastchar = nil
+			tempchar.Parent = workspace
+			local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+			repeat
+				workspace.CurrentCamera.CameraSubject = tempchar:FindFirstChild("Humanoid")
+				for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
+					if tool:IsA("Tool") then
+						tool.Parent = LocalPlayer
+					end
+				end
+				LocalPlayer.Character:ClearAllChildren()
+				local char = Instance.new("Model", workspace)
+				Instance.new("Humanoid", char)
+				LocalPlayer.Character = char
+				if lastchar ~= nil then
+					lastchar:Destroy()
+				end
+				repeat RunService.RenderStepped:Wait() until LocalPlayer.Character ~= nil
+				lastchar = char
+				RunService.RenderStepped:Wait()
+			until #LocalPlayer:GetChildren() - 3 - currentamount >= cmdParameters[1]
+			repeat RunService.RenderStepped:Wait() until LocalPlayer.Character:FindFirstChild("HumanoidRootPart") ~= nil
+			lastchar:Destroy()
+			for _, tool in pairs(LocalPlayer:GetChildren()) do
+				if tool:IsA("Tool") then
+					tool.Parent = LocalPlayer.Backpack
+				end
+			end
+			LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
+			tempchar:Destroy()
+		end)
+		Cyclone:createCommand("accessorytotool", "accessorytotool", "Converts your accessories into tools", function(cmdParameters)
+			for _, hat in pairs(LocalPlayer.Character:FindFirstChild("Humanoid"):GetAccessories()) do
+				if hat.Handle ~= nil then
+					local tool = Instance.new("Tool", LocalPlayer.Backpack)
+					tool.Name = hat.Name
+					local hathandle = hat.Handle
+					hathandle:FindFirstChildOfClass("Weld"):Destroy()
+					hathandle.Parent = tool
+					hathandle.Massless = true
+				end
+			end
+		end)
+		Cyclone:createCommand("lagserver", "lagserver", "Lags the server", function(cmdParameters)
+			lagserver = true
+			repeat
+				local anim = Instance.new("Animation")
+				anim.AnimationId = math.random()
+				LocalPlayer.Character.Humanoid:LoadAnimation(anim):Play()
+				anim:Destroy()
+			until lagserver == false
+		end)
+		Cyclone:createCommand("unlagserver", "unlagserver", "Stop lagging the server", function(cmdParameters)
+			lagserver = false
+		end)
+		Cyclone:createCommand("custombtools", "custombtools", "Custom btools, only replicates on unanchored parts", function(cmdParameters)
+			local movetool = Instance.new("Tool", LocalPlayer.Backpack)
+			local deletetool = Instance.new("Tool", LocalPlayer.Backpack)
+			local undotool = Instance.new("Tool", LocalPlayer.Backpack)
+			local identifytool = Instance.new("Tool", LocalPlayer.Backpack)
+			local movedetect = false
+			local movingpart = nil
+			local movetransparency = 0
+			if editedparts == nil then
+				editedparts = {}
+				parentfix = {}
+				positionfix = {}
+			end
+			deletetool.Name = "Delete"
+			undotool.Name = "Undo"
+			identifytool.Name = "Identify"
+			movetool.Name = "Move"
+			undotool.CanBeDropped = false
+			deletetool.CanBeDropped = false
+			identifytool.CanBeDropped = false
+			movetool.CanBeDropped = false
+			undotool.RequiresHandle = false
+			deletetool.RequiresHandle = false
+			identifytool.RequiresHandle = false
+			movetool.RequiresHandle = false
+			local function createnotification(title, text)
+				game:GetService("StarterGui"):SetCore("SendNotification", {
+					Title = title;
+					Text = text;
+					Duration = 1;
+				})
+			end
+			deletetool.Activated:Connect(function()
+				createnotification("Delete Tool", "You have deleted "..mouse.Target.Name)
+				table.insert(editedparts, mouse.Target)
+				table.insert(parentfix, mouse.Target.Parent)
+				table.insert(positionfix, mouse.Target.CFrame)
+				spawn(function()
+					local deletedpart = mouse.Target
+					repeat
+						deletedpart.Anchored = true
+						deletedpart.CFrame = CFrame.new(1000000000, 1000000000, 1000000000)
+						wait()
+					until deletedpart.CFrame ~= CFrame.new(1000000000, 1000000000, 1000000000)
+				end)
+			end)
+			undotool.Activated:Connect(function()
+				createnotification("Undo Tool", "You have undone "..editedparts[#editedparts].Name)
+				editedparts[#editedparts].Parent = parentfix[#parentfix]
+				editedparts[#editedparts].CFrame = positionfix[#positionfix]
+				table.remove(positionfix, #positionfix)
+				table.remove(editedparts, #editedparts)
+				table.remove(parentfix, #parentfix)
+			end)
+			identifytool.Activated:Connect(function()
+				createnotification("Identify Tool", "Instance: "..mouse.Target.ClassName.."\nName: "..mouse.Target.Name)
+			end)
+			movetool.Activated:Connect(function()
+				createnotification("Move Tool", "You are moving: "..mouse.Target.Name)
+				movingpart = mouse.Target
+				movedetect = true
+				movingpart.CanCollide = false
+				movetransparency = movingpart.Transparency
+				movingpart.Transparency = 0.5
+				mouse.TargetFilter = movingpart
+				table.insert(editedparts, movingpart)
+				table.insert(parentfix, movingpart.Parent)
+				table.insert(positionfix, movingpart.CFrame)
+				movingpart.Transparency = movingpart.Transparency / 2
+				repeat
+					mouse.Move:Wait()
+					movingpart.CFrame = CFrame.new(mouse.Hit.p)
+				until movedetect == false
+			end)
+			movetool.Deactivated:Connect(function()
+				createnotification("Move Tool", "You have stopped moving: "..mouse.Target.Name)
+				movingpart.CanCollide = true
+				movedetect = false
+				mouse.TargetFilter = nil
+				movingpart.Transparency = movetransparency
+			end)
+		end)
+		Cyclone:createCommand("brickspam", "brickspam", "Turns your tools into bricks then drops them", function(cmdParameters)
+			for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
+				if tool:IsA("Tool") then
+					tool.Parent = LocalPlayer.Character
+					if tool.Handle:FindFirstChild("Mesh") ~= nil then
+						tool.Handle:FindFirstChild("Mesh"):Destroy()
+					end
+					tool.Parent = workspace.Terrain -- Bypasses some tool clearing scripts
+					wait()
+				end
+			end
+		end)
+		Cyclone:createCommand("drophats", "drophats", "Drops all your hats", function(cmdParameters)
+			for _, hat in pairs(LocalPlayer.Character:FindFirstChild("Humanoid"):GetAccessories()) do
+				hat.Parent = workspace.Terrain -- Bypasses some hat clearing scripts
+			end
+		end)
+		Cyclone:createCommand("brickhats", "brickhats", "Turns your hats into bricks", function(cmdParameters)
+			for _, hat in pairs(LocalPlayer.Character:FindFirstChild("Humanoid"):GetAccessories()) do
+				if hat.Handle:FindFirstChild("Mesh") then
+					hat.Handle.Mesh:Destroy()
+				end
+			end
+		end)
+		Cyclone:createCommand("float", "float [velocity]", "Makes you float with given velocity", function(cmdParameters)
+			Instance.new("BodyVelocity", LocalPlayer.Character:FindFirstChild("HumanoidRootPart")).Velocity = Vector3.new(0, cmdParameters[1], 0)
+		end)
+		Cyclone:createCommand("clicktp", "clicktp", "Click to teleport to your mouse position", function(cmdParameters)
+			clicktp = mouse.Button1Down:Connect(function()
+				LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = mouse.Hit
+			end)
+		end)
+		Cyclone:createCommand("unclicktp", "unclicktp", "Stops clicktp", function(cmdParameters)
+			if clicktp then
+				clicktp:Disconnect()
+			end
+		end)
+		Cyclone:createCommand("xray", "xray", "Makes you see through walls", function(cmdParameters)
+			for _, d in pairs(workspace:GetDescendants()) do
+				if d:IsA("BasePart") then
+					local transpVal = Instance.new("NumberValue", d)
+					transpVal.Name = "transpVal"
+					transpVal.Value = d.Transparency
+					d.Transparency = d.Transparency + 0.75
+				end
+			end
+		end)
+		Cyclone:createCommand("unxray", "unxray", "Removes Xray", function(cmdParameters)
+			for _, d in pairs(workspace:GetDescendants()) do
+				if d:IsA("BasePart") and d:FindFirstChild("transpVal") then
+					d.Transparency = d:FindFirstChild("transpVal").Value
+					d:FindFirstChild("transpVal"):Destroy()
+				end
+			end
+		end)
+		Cyclone:createCommand("countdown", "countdown [countinto]", "Makes you count from countinto to 0 with changeable delay", function(cmdParameters)
+			for i = cmdParameters[1], 0, -1 do
+				chatPlr(i)
+				wait(tonumber(cmdParameters[2]))
+			end
+		end)
+		Cyclone:createCommand("getos", "getos [plr]", "Gets the OS of the target", function(cmdParameters)
+			for _, plr in pairs(Players[cmdParameters[1]]) do
+				createNotif(plr.Name .. "'s OS is " .. plr.OsPlatform)
+			end
+		end)
+		Cyclone:createCommand("getage", "getage [plr]", "Gets the account age of the target", function(cmdParameters)
+			for _, plr in pairs(Players[cmdParameters[1]]) do
+				createNotif(plr.Name .. "'s account age is " .. plr.AccountAge)
+			end
+		end)
+		Cyclone:createCommand("hugkill", "hugkill", "Touch players to kill them, must have player collision", function(cmdParameters)
+			local torsoname = "Torso"
+			if LocalPlayer.Character:FindFirstChild("Humanoid").RigType == Enum.HumanoidRigType.R15 then
+				torsoname = "UpperTorso"
+			end
+			LocalPlayer.Character:FindFirstChild("Animate").toolnone.ToolNoneAnim.AnimationId = math.huge
+			LocalPlayer.Character:FindFirstChild(torsoname).Anchored = true
+			local tool = Instance.new("Tool", LocalPlayer.Backpack)
+			LocalPlayer.Character:FindFirstChildOfClass("Accessory").Handle.Parent = tool
+			tool.Handle.Massless = true
+			tool.GripPos = Vector3.new(0, math.huge, 0)
+			tool.Parent = LocalPlayer.Character
+			wait()
+			tool.Grip = CFrame.new(Vector3.new(0, 0, 0))
+			LocalPlayer.Character:FindFirstChild(torsoname).Anchored = false
+		end)
+		Cyclone:createCommand("goto", "goto [plr]", "Teleports to the player", function(cmdParameters)
+			LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = Players[cmdParameters[1]][1].Character:FindFirstChild("HumanoidRootPart").CFrame
+		end)
+		Cyclone:createCommand("oofspam", "oofspam [speed]", "Spams OOF with changeable speed", function(cmdParameters)
+			repeat
+				for _, plr in pairs(game:GetService("Players"):GetPlayers()) do
+					plr.Character:FindFirstChild("Head").Died.Playing = true
+				end
+				wait(tonumber(cmdParameters[2]))
+			until oofspamming == false
+		end)
+		Cyclone:createCommand("unoofspam", "unoofspam", "Stops OOF spam", function(cmdParameters)
+			oofspamming = true
+		end)
+		searchBox:GetPropertyChangedSignal("Text"):Connect(Cyclone.updateSearchBar)
+		Cyclone.updateSearchBar()
+		-- Introduction setup:
+		local woosh1 = Cyclone:createSound("rbxassetid://858508159", 1)
+		local woosh2 = Cyclone:createSound("rbxassetid://541909763", 1)
+		local introSound = Cyclone:createSound("rbxassetid://745159327", 1)
+		local introBGM = Cyclone:createSound("rbxassetid://383635191", 1)
+		Cyclone:setBlinker(CustomEnum.BlinkingDirection.Close, 1, 1)
+		Cyclone:setBrightness(-1, 0.5)
+		Cyclone:setBlur(25, 1)
+		wait(1)
+		ContentProvider:PreloadAsync(CycloneGui:GetDescendants())
+		introLabel.Parent = CycloneGui
+		local oldCamOffset = LocalPlayer.Character:FindFirstChild("Humanoid").CameraOffset
+		LocalPlayer.Character:FindFirstChild("Humanoid").CameraOffset = LocalPlayer.Character:FindFirstChild("Humanoid").CameraOffset + Vector3.new(0, 10, 0)
+		wait(1)
+		TweenService:Create(LocalPlayer.Character:FindFirstChild("Humanoid"), tweenInfo1, {CameraOffset = oldCamOffset}):Play()
+		woosh1:Play()
+		introSound:Play()
+		Cyclone:setBlinker(CustomEnum.BlinkingDirection.Close, 1, 0.5)
+		Cyclone:setBrightness(1, 0.1)
+		wait(0.1)
+		Cyclone:setBrightness(-0.5, 2.5)
+		wait(3)
+		TweenService:Create(introLabel, tweenInfo3, {Position = UDim2.new(0, 0, 1, 0)}):Play()
+		Cyclone:setBlinker(CustomEnum.BlinkingDirection.Open, 1, 1)
+		Cyclone:setBrightness(0, 3)
+		Cyclone:setBlur(0, 3)
+		wait(2)
+		woosh2:Play()
+		TweenService:Create(mainFrame, tweenInfo2, {Position = UDim2.new(0.82, 0, 0.6, 0)}):Play()
+		wait(0.1)
+		introBGM:Play()
+		createNotif("Cyclone V1.0 is now running", CustomEnum.NotifcationType.Important)
+		wait(0.1)
+		if not string.split then
+			createNotif("Your exploit doesn't support string.split", CustomEnum.NotifcationType.Error)
+		end
+	end)
+
+	axy.Name = "axy"
+	axy.Parent = Main
+	axy.BackgroundColor3 = Color3.new(1, 1, 1)
+	axy.BackgroundTransparency = 1
+	axy.ClipsDescendants = true
+	axy.Position = UDim2.new(0.0120967738, 0, 0.821194768, 0)
+	axy.Size = UDim2.new(0, 246, 0, 23)
+	axy.Font = Enum.Font.SourceSansLight
+	axy.Text = "Mikhail Statuyev#5496 for UI Tween"
+	axy.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+	axy.TextSize = 16
+
+	diemie.Name = "diemie"
+	diemie.Parent = Main
+	diemie.BackgroundColor3 = Color3.new(1, 1, 1)
+	diemie.BackgroundTransparency = 1
+	diemie.BorderColor3 = Color3.new(1, 1, 0)
+	diemie.ClipsDescendants = true
+	diemie.Position = UDim2.new(0.0120967738, 0, 0.897332668, 0)
+	diemie.Size = UDim2.new(0, 246, 0, 23)
+	diemie.Font = Enum.Font.SourceSansLight
+	diemie.Text = "Press ; to hide or show"
+	diemie.TextColor3 = Color3.new(1, 1, 0)
+	diemie.TextSize = 16
+
+
+	local isHidden = false
+	local mause = game.Players.LocalPlayer:GetMouse()
+
+	do
+		local mouse = game:GetService("Players").LocalPlayer:GetMouse();
+		local inputService = game:GetService('UserInputService');
+		local heartbeat = game:GetService("RunService").Heartbeat;
+		function Draggable(frame)
+			local s, event = pcall(function()
+				return frame.MouseEnter
+			end)
+			if s then
+				frame.Active = true;
+				event:connect(function()
+					local input = frame.InputBegan:connect(function(key)
+						if key.UserInputType == Enum.UserInputType.MouseButton1 then
+							local objectPosition = Vector2.new(mouse.X - frame.AbsolutePosition.X, mouse.Y - frame.AbsolutePosition.Y);
+							while heartbeat:wait() and inputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
+								frame:TweenPosition(UDim2.new(0, mouse.X - objectPosition.X + (frame.Size.X.Offset * frame.AnchorPoint.X), 0, mouse.Y - objectPosition.Y + (frame.Size.Y.Offset * frame.AnchorPoint.Y)), 'Out', 'Quad', 0.1, true);
+							end
+						end
+					end)
+					local leave;
+					leave = frame.MouseLeave:connect(function()
+						input:disconnect();
+						leave:disconnect();
+					end)
+				end)
+			end
+		end
+	end
+
+	Draggable(Main)
+
+	mause.KeyDown:connect(function(key)
+		if key == ";" then
+			if isHidden == false then
+				Main:TweenPosition(Main.Position - UDim2.new(0,0,1,0),"Out","Quad",0.4,false)
+				isHidden = true
+			else
+				Main:TweenPosition(Main.Position + UDim2.new(0,0,1,0),"Out","Quad",0.4,false)
+				isHidden = false
+			end
+		end
+	end)
+end)
+
+kat.Name = "kat"
+kat.Parent = Main
+kat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+kat.Position = UDim2.new(0.087053597, 0, 0.335664332, 0)
+kat.Size = UDim2.new(0, 153, 0, 50)
+kat.Font = Enum.Font.SourceSans
+kat.Text = "kat"
+kat.TextColor3 = Color3.fromRGB(0, 0, 0)
+kat.TextSize = 14.000
+kat.MouseButton1Down:connect(function()
+	getgenv().SelectedPart = "Torso"
+	getgenv().VisibiltyCheck = false
+	getgenv().TargetESP = true
+	getgenv().FOV = 250
+	getgenv().CircleVisibility = true
+	getgenv().Distance = 500
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yesok3877/Celestial-Silent-Aim/master/Auto-Input", true))()
+end)
+
+mm2.Name = "mm2"
+mm2.Parent = Main
+mm2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mm2.Position = UDim2.new(0.595982194, 0, 0.335664332, 0)
+mm2.Size = UDim2.new(0, 153, 0, 50)
+mm2.Font = Enum.Font.SourceSans
+mm2.Text = "mm2"
+mm2.TextColor3 = Color3.fromRGB(0, 0, 0)
+mm2.TextSize = 14.000
+mm2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+end)
