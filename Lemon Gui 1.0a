@@ -1,0 +1,310 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local LemonGui = Instance.new("TextLabel")
+local MainLine = Instance.new("TextLabel")
+local Darkhub = Instance.new("TextButton")
+local Kat = Instance.new("TextButton")
+local OwlHub = Instance.new("TextButton")
+local MM2 = Instance.new("TextButton")
+local PetSimulator = Instance.new("TextButton")
+local PhantomFoces = Instance.new("TextButton")
+local UnlockPhantom = Instance.new("TextButton")
+local Piggy = Instance.new("TextButton")
+local PLG = Instance.new("TextButton")
+local UnlockPaint = Instance.new("TextButton")
+local X = Instance.new("TextButton")
+local Load = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+Main.Position = UDim2.new(0.0735068917, 0, 0.0909090936, 0)
+Main.Size = UDim2.new(0, 1094, 0, 641)
+
+LemonGui.Name = "LemonGui"
+LemonGui.Parent = Main
+LemonGui.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+LemonGui.BackgroundTransparency = 1.000
+LemonGui.Size = UDim2.new(0, 1094, 0, 54)
+LemonGui.Font = Enum.Font.SourceSans
+LemonGui.Text = "Lemon Gui"
+LemonGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+LemonGui.TextScaled = true
+LemonGui.TextSize = 14.000
+LemonGui.TextWrapped = true
+
+MainLine.Name = "MainLine"
+MainLine.Parent = Main
+MainLine.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MainLine.Position = UDim2.new(-0.000144191377, 0, 0.0833521709, 0)
+MainLine.Size = UDim2.new(0, 1094, 0, 0)
+MainLine.Font = Enum.Font.SourceSans
+MainLine.Text = ""
+Mai11nLine.TextColor3 = Color3.fromRGB(0, 0, 0)
+MainLine.TextSize = 14.000
+
+Darkhub.Name = "Darkhub"
+Darkhub.Parent = Main
+Darkhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Darkhub.Position = UDim2.new(0.026508227, 0, 0.107644305, 0)
+Darkhub.Size = UDim2.new(0, 130, 0, 49)
+Darkhub.Font = Enum.Font.SourceSans
+Darkhub.Text = "Dark Hub"
+Darkhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Darkhub.TextScaled = true
+Darkhub.TextSize = 14.000
+Darkhub.TextWrapped = true
+Darkhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/yCrBkPaY", true))()
+end)
+
+Kat.Name = "Kat"
+Kat.Parent = Main
+Kat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Kat.Position = UDim2.new(0.184643507, 0, 0.107644305, 0)
+Kat.Size = UDim2.new(0, 130, 0, 49)
+Kat.Font = Enum.Font.SourceSans
+Kat.Text = "Kat"
+Kat.TextColor3 = Color3.fromRGB(0, 0, 0)
+Kat.TextScaled = true
+Kat.TextSize = 14.000
+Kat.TextWrapped = true
+Kat.MouseButton1Down:connect(function()
+	getgenv().SelectedPart = "Torso"
+	getgenv().VisibiltyCheck = false
+	getgenv().TargetESP = true
+	getgenv().FOV = 250
+	getgenv().CircleVisibility = true
+	getgenv().Distance = 500
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yesok3877/Celestial-Silent-Aim/master/Auto-Input", true))()
+end
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = Main
+OwlHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.Position = UDim2.new(0.503656268, 0, 0.107644305, 0)
+OwlHub.Size = UDim2.new(0, 130, 0, 49)
+OwlHub.Font = Enum.Font.SourceSans
+OwlHub.Text = "OwlHub"
+OwlHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+OwlHub.TextScaled = true
+OwlHub.TextSize = 14.000
+OwlHub.TextWrapped = true
+OwlHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
+end
+
+MM2.Name = "MM2"
+MM2.Parent = Main
+MM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2.Position = UDim2.new(0.340036571, 0, 0.107644305, 0)
+MM2.Size = UDim2.new(0, 130, 0, 49)
+MM2.Font = Enum.Font.SourceSans
+MM2.Text = "MM2"
+MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2.TextScaled = true
+MM2.TextSize = 14.000
+MM2.TextWrapped = true
+MM2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+end
+
+PetSimulator.Name = "PetSimulator"
+PetSimulator.Parent = Main
+PetSimulator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PetSimulator.Position = UDim2.new(0.655393064, 0, 0.107644305, 0)
+PetSimulator.Size = UDim2.new(0, 130, 0, 49)
+PetSimulator.Font = Enum.Font.SourceSans
+PetSimulator.Text = "PetSimulator"
+PetSimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+PetSimulator.TextScaled = true
+PetSimulator.TextSize = 14.000
+PetSimulator.TextWrapped = true
+PetSimulator.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/sdSipw63", true))()
+end
+
+PhantomFoces.Name = "PhantomFoces"
+PhantomFoces.Parent = Main
+PhantomFoces.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PhantomFoces.Position = UDim2.new(0.808957934, 0, 0.107644305, 0)
+PhantomFoces.Size = UDim2.new(0, 130, 0, 49)
+PhantomFoces.Font = Enum.Font.SourceSans
+PhantomFoces.Text = "PhantomFoces"
+PhantomFoces.TextColor3 = Color3.fromRGB(0, 0, 0)
+PhantomFoces.TextScaled = true
+PhantomFoces.TextSize = 14.000
+PhantomFoces.TextWrapped = true
+PhantomFoces.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Mikehales7/EHUB/master/Roblox"))()
+end
+
+UnlockPhantom.Name = "UnlockPhantom"
+UnlockPhantom.Parent = Main
+UnlockPhantom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UnlockPhantom.Position = UDim2.new(0.026508227, 0, 0.257410288, 0)
+UnlockPhantom.Size = UDim2.new(0, 130, 0, 49)
+UnlockPhantom.Font = Enum.Font.SourceSans
+UnlockPhantom.Text = "UnlockPhantom"
+UnlockPhantom.TextColor3 = Color3.fromRGB(0, 0, 0)
+UnlockPhantom.TextScaled = true
+UnlockPhantom.TextSize = 14.000
+UnlockPhantom.TextWrapped = true
+UnlockPhantom.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ib9ZeB4C"))()
+end
+
+Piggy.Name = "Piggy"
+Piggy.Parent = Main
+Piggy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Piggy.Position = UDim2.new(0.184643507, 0, 0.257410288, 0)
+Piggy.Size = UDim2.new(0, 130, 0, 49)
+Piggy.Font = Enum.Font.SourceSans
+Piggy.Text = "Piggy"
+Piggy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Piggy.TextScaled = true
+Piggy.TextSize = 14.000
+Piggy.TextWrapped = true
+Piggy.MouseButton1Down:connect(function()
+	local PiggyGui = Instance.new("ScreenGui")
+	PiggyGui.Name = "PiggyGui"
+	PiggyGui.Parent = game.StarterGui
+
+	local ScrollingFrame = Instance.new("ScrollingFrame", PiggyGui)
+	ScrollingFrame.BackgroundColor3 = Color3.new(0.15, 0.15, 0.15)
+	ScrollingFrame.Position = UDim2.new(0.08, 0, 0.42, 0)
+	ScrollingFrame.Size = UDim2.new(0, 296, 0, 388)
+
+
+
+
+	local PiggyGui = Instance.new("ScreenGui")
+	PiggyGui.Name = "PiggyGui"
+	PiggyGui.Parent = game.CoreGui
+
+	local ScrollingFrame = Instance.new("ScrollingFrame", PiggyGui)
+	ScrollingFrame.BackgroundColor3 = Color3.new(0.15, 0.15, 0.15)
+	ScrollingFrame.Position = UDim2.new(0.08, 0, 0.42, 0)
+	ScrollingFrame.Size = UDim2.new(0, 296, 0, 388)
+
+	local UIGridLayout = Instance.new("UIGridLayout", ScrollingFrame)
+	UIGridLayout.CellSize = UDim2.new(0,90,0,90)
+
+	while wait(1) do
+		local a = workspace:getDescendants()
+		local items = {}
+		local itemframes = ScrollingFrame:getChildren()
+		for i=1,#itemframes do
+			if itemframes[i].ClassName == "TextButton" then
+				itemframes[i]:remove()
+			end
+		end
+		for i=1,#a do
+			if a[i].Name == "ItemPickupScript" and a[i].Parent:findFirstChild("ClickDetector") then
+				table.insert(items, a[i].Parent)
+			end
+		end
+		for i=1,#items do
+			local ItemFrame = Instance.new("TextButton", ScrollingFrame)
+			ItemFrame.Name = "ItemFrame"
+			ItemFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+			ItemFrame.BackgroundTransparency = 0.95
+			ItemFrame.Size = UDim2.new(0, 100, 0, 100)
+			ItemFrame.Text = ""
+			local View = Instance.new("ViewportFrame", ItemFrame)
+			View.Name = "View"
+			View.Size = UDim2.new(1,0,1,0)
+			View.BackgroundTransparency = 1
+			View.BorderSizePixel = 0
+			local object = items[i]
+			local viewportclone = object:Clone()
+			viewportclone.Parent = View
+			local cam = Instance.new("Camera", viewportclone)
+			cam.CameraType = Enum.CameraType.Fixed
+			local objectPosition = object.Position
+			local cameraPosition = objectPosition + Vector3.new(0,3,0)
+			cam.CoordinateFrame = CFrame.new(cameraPosition, objectPosition)
+			View.CurrentCamera = cam
+
+			ItemFrame.MouseButton1Down:connect(function()
+				if items[i]:findFirstChild("ClickDetector") then
+					local cpos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+					wait(0.05)
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = items[i].CFrame
+					wait(0.1)
+					fireclickdetector(items[i].ClickDetector)
+					wait(0.3)
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = cpos
+				end
+			end)
+		end
+	end
+end
+
+PLG.Name = "PLG"
+PLG.Parent = Main
+PLG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PLG.Position = UDim2.new(0.340036571, 0, 0.257410288, 0)
+PLG.Size = UDim2.new(0, 130, 0, 49)
+PLG.Font = Enum.Font.SourceSans
+PLG.Text = "PLG"
+PLG.TextColor3 = Color3.fromRGB(0, 0, 0)
+PLG.TextScaled = true
+PLG.TextSize = 14.000
+PLG.TextWrapped = true
+PLG.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RbxCheats/RbxCheats/master/Scripts/PLG%20v3.1.lua",true))()
+end
+
+UnlockPaint.Name = "UnlockPaint"
+UnlockPaint.Parent = Main
+UnlockPaint.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UnlockPaint.Position = UDim2.new(0.502742231, 0, 0.257410288, 0)
+UnlockPaint.Size = UDim2.new(0, 130, 0, 49)
+UnlockPaint.Font = Enum.Font.SourceSans
+UnlockPaint.Text = "UnlockPaint"
+UnlockPaint.TextColor3 = Color3.fromRGB(0, 0, 0)
+UnlockPaint.TextScaled = true
+UnlockPaint.TextSize = 14.000
+UnlockPaint.TextWrapped = true
+UnlockPaint.MouseButton1Down:connect(function()
+	loadstring(game.HttpGet(game, "https://pastebin.com/raw/EjikdmZx")) ()
+end
+
+X.Name = "X"
+X.Parent = Main
+X.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+X.Position = UDim2.new(0.960694671, 0, 0, 0)
+X.Size = UDim2.new(0, 42, 0, 35)
+X.Font = Enum.Font.SourceSans
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(0, 0, 0)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextWrapped = true
+X.MouseButton1Down:connect(function()
+	Main.Visible = false
+end)
+
+Load.Name = "Load"
+Load.Parent = ScreenGui
+Load.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+Load.Position = UDim2.new(0.204441041, 0, 0.399262905, 0)
+Load.Size = UDim2.new(0, 771, 0, 163)
+Load.Font = Enum.Font.SourceSans
+Load.Text = "Lemon Gui Is Loading..."
+Load.TextColor3 = Color3.fromRGB(0, 0, 0)
+Load.TextScaled = true
+Load.TextSize = 14.000
+Load.TextWrapped = true
+Load.Visible = true
+wait(5)
+Load.Visible = false
+Main.Visible = true
+
+--Made By Lemon Studio
+--Make sure you use SynapseX right now
+--v1.0a
